@@ -2,8 +2,18 @@
  "settori": [
   {
    "id": "pdf",
-   "it": "PDF",
-   "en": "PDF"
+   "it": "Strumenti PDF",
+   "en": "PDF tools",
+   "slug": {
+    "it": "strumenti-pdf",
+    "en": "pdf-tools"
+   },
+   "ico": "📄",
+   "colore": "#e5322d",
+   "desc": {
+    "it": "Unisci, dividi, comprimi, converti, firma e riassumi i tuoi PDF.",
+    "en": "Merge, split, compress, convert, sign and summarize your PDFs."
+   }
   }
  ],
  "categorie": [

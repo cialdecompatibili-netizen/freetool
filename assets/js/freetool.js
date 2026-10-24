@@ -14,7 +14,7 @@
 
   var TX = {
     it: {
-      h1: 'Tutti gli strumenti che ti servono, gratis', sub: 'Documenti, PDF, immagini e molto altro: scegli lo strumento, carica il file e fai in un attimo.',
+      h1: 'Tutti gli strumenti che ti servono, gratis', sub: 'Scegli una categoria e usa gli strumenti gratis. Altre categorie in arrivo.', nstr: 'strumenti', homeL: 'Home',
       cerca: 'Cerca uno strumento (es. unisci, comprimi, word...)', tutti: 'Tutti', nuovo: 'Nuovo', vuoto: 'Nessuno strumento trovato. Scrivici quale ti serve: lo aggiungiamo.',
       altri: 'Altri strumenti', home: 'Tutti gli strumenti', sel: 'Seleziona file', selUrl: 'Scegli un indirizzo web', vai: 'Continua', trascina: 'oppure trascina qui il file',
       urlPh: 'https://www.esempio.it', testoPh: 'Incolla qui il testo',
@@ -27,7 +27,7 @@
       manca: 'Ti manca uno strumento? Dicci quale', manca2: 'Scrivici'
     },
     en: {
-      h1: 'Every tool you need, for free', sub: 'Documents, PDFs, images and more: pick a tool, add your file and get it done in seconds.',
+      h1: 'Every tool you need, for free', sub: 'Pick a category and use the tools for free. More categories coming soon.', nstr: 'tools', homeL: 'Home',
       cerca: 'Search a tool (e.g. merge, compress, word...)', tutti: 'All', nuovo: 'New', vuoto: 'No tool found. Tell us which one you need and we will add it.',
       altri: 'More tools', home: 'All tools', sel: 'Select file', selUrl: 'Enter a web address', vai: 'Continue', trascina: 'or drop your file here',
       urlPh: 'https://www.example.com', testoPh: 'Paste your text here',
@@ -50,7 +50,7 @@
 
   /* CSS caricato dal JS: un solo file da includere nelle pagine */
   var me = document.querySelector('script[src*="freetool.js"]');
-  if (me) { var lk = document.createElement('link'); lk.rel = 'stylesheet'; lk.href = me.src.replace(/js\/freetool\.js.*$/, 'css/freetool.css?v=1'); document.head.appendChild(lk); }
+  if (me) { var lk = document.createElement('link'); lk.rel = 'stylesheet'; lk.href = me.src.replace(/js\/freetool\.js.*$/, 'css/freetool.css?v=2'); document.head.appendChild(lk); }
 
   var DATA = null;
   function cat(id) { for (var i = 0; i < DATA.categorie.length; i++) if (DATA.categorie[i].id === id) return DATA.categorie[i]; return { colore: '#e5322d' }; }
@@ -66,66 +66,83 @@
     return a;
   }
 
-  /* ---------------------------------- HOME ---------------------------------- */
-  function home() {
-    var st = { q: '', sett: DATA.settori[0].id, cat: 'all', tutti: true };
-    app.innerHTML = '';
-    app.className = 'ft ft-home';
+  /* ---------------------------------- HOME (tessere dei settori) e PAGINA SETTORE ---------------------------------- */
+  function sect(id) { for (var i = 0; i < DATA.settori.length; i++) if (DATA.settori[i].id === id) return DATA.settori[i]; return null; }
+  function sectorUrl(s) { return BASE + (L === 'en' ? '/en/' + s.slug.en + '/' : '/' + s.slug.it + '/'); }
+  function count(s) { var n = 0; DATA.strumenti.forEach(function (t) { if (cat(t.cat).settore === s.id) n++; }); return n; }
+  function tile(s) {
+    var a = h('a', 'ft-tile'); a.href = sectorUrl(s);
+    a.innerHTML = '<span class="ft-ico big" style="background:' + s.colore + '">' + s.ico + '</span><b>' + esc(s[L]) + '</b><span class="ft-d">' + esc(s.desc[L]) + '</span><span class="ft-n">' + count(s) + ' ' + tx.nstr + '</span>';
+    return a;
+  }
+  function heroBox(titolo, sotto) {
     var hero = h('section', 'ft-hero');
-    hero.innerHTML = '<h1>' + tx.h1 + '</h1><p>' + tx.sub + '</p>';
+    hero.innerHTML = '<h1>' + titolo + '</h1><p>' + sotto + '</p>';
     var q = h('input', 'ft-q'); q.type = 'search'; q.placeholder = tx.cerca; q.setAttribute('aria-label', tx.cerca);
     hero.appendChild(q);
-    var tabs = h('div', 'ft-tabs');
-    var grid = h('div', 'ft-grid');
-    app.appendChild(hero); app.appendChild(tabs); app.appendChild(grid);
+    return { hero: hero, q: q };
+  }
+  function footer() {
+    var f = h('section', 'ft-feat');
+    f.innerHTML = '<div><b>' + tx.f1 + '</b><span>' + tx.f1t + '</span></div><div><b>' + tx.f2 + '</b><span>' + tx.f2t + '</span></div><div><b>' + tx.f3 + '</b><span>' + tx.f3t + '</span></div>';
+    app.appendChild(f);
+    app.appendChild(h('p', 'ft-manca', tx.manca + ' - <a href="' + contactUrl() + '">' + tx.manca2 + '</a>'));
+  }
 
+  function home() {
+    app.innerHTML = ''; app.className = 'ft ft-home';
+    var hb = heroBox(tx.h1, tx.sub);
+    var tiles = h('div', 'ft-tiles'), grid = h('div', 'ft-grid');
+    app.appendChild(hb.hero); app.appendChild(tiles); app.appendChild(grid);
+    function draw() {
+      var s = hb.q.value.trim().toLowerCase();
+      tiles.innerHTML = ''; grid.innerHTML = '';
+      if (!s) {
+        grid.hidden = true; tiles.hidden = false;
+        DATA.settori.forEach(function (x) { tiles.appendChild(tile(x)); });
+      } else {
+        tiles.hidden = true; grid.hidden = false; var n = 0;
+        DATA.strumenti.forEach(function (t) { if ((t[L][0] + ' ' + t[L][1]).toLowerCase().indexOf(s) >= 0) { grid.appendChild(card(t)); n++; } });
+        if (!n) grid.appendChild(h('p', 'ft-vuoto', tx.vuoto));
+      }
+    }
+    hb.q.addEventListener('input', draw); draw(); footer();
+  }
+
+  function settore() {
+    var s = sect(app.getAttribute('data-sector') || '');
+    if (!s) { home(); return; }
+    var st = { cat: 'all' };
+    app.innerHTML = ''; app.className = 'ft ft-home';
+    app.appendChild(h('p', 'ft-bc', '<a href="' + homeUrl() + '">' + tx.homeL + '</a> &rsaquo; ' + esc(s[L])));
+    var hb = heroBox(esc(s[L]), esc(s.desc[L]));
+    var tabs = h('div', 'ft-tabs'), grid = h('div', 'ft-grid');
+    app.appendChild(hb.hero); app.appendChild(tabs); app.appendChild(grid);
     function drawTabs() {
       tabs.innerHTML = '';
-      if (DATA.settori.length > 1) {
-        var row = h('div', 'ft-sett');
-        var all = h('button', 'ft-pill' + (st.tutti ? ' on' : ''), tx.tutti); all.type = 'button';
-        all.onclick = function () { st.tutti = true; st.cat = 'all'; draw(); };
-        row.appendChild(all);
-        DATA.settori.forEach(function (s) {
-          var b = h('button', 'ft-pill' + (!st.tutti && st.sett === s.id ? ' on' : ''), esc(s[L])); b.type = 'button';
-          b.onclick = function () { st.tutti = false; st.sett = s.id; st.cat = 'all'; draw(); };
-          row.appendChild(b);
-        });
-        tabs.appendChild(row);
-      }
-      var row2 = h('div', 'ft-cats');
+      var row = h('div', 'ft-cats');
       var b0 = h('button', 'ft-pill' + (st.cat === 'all' ? ' on' : ''), tx.tutti); b0.type = 'button';
-      b0.onclick = function () { st.cat = 'all'; draw(); };
-      row2.appendChild(b0);
+      b0.onclick = function () { st.cat = 'all'; draw(); }; row.appendChild(b0);
       DATA.categorie.forEach(function (c) {
-        if (!st.tutti && c.settore !== st.sett) return;
+        if (c.settore !== s.id) return;
         var b = h('button', 'ft-pill' + (st.cat === c.id ? ' on' : ''), esc(c[L])); b.type = 'button';
-        b.onclick = function () { st.cat = c.id; draw(); };
-        row2.appendChild(b);
+        b.onclick = function () { st.cat = c.id; draw(); }; row.appendChild(b);
       });
-      tabs.appendChild(row2);
+      tabs.appendChild(row);
     }
     function drawGrid() {
-      grid.innerHTML = '';
-      var n = 0, s = st.q.toLowerCase();
+      grid.innerHTML = ''; var n = 0, q = hb.q.value.trim().toLowerCase();
       DATA.strumenti.forEach(function (t) {
-        var c = cat(t.cat);
-        if (!st.tutti && c.settore !== st.sett) return;
+        if (cat(t.cat).settore !== s.id) return;
         if (st.cat !== 'all' && t.cat !== st.cat) return;
-        if (s && (t[L][0] + ' ' + t[L][1]).toLowerCase().indexOf(s) < 0) return;
+        if (q && (t[L][0] + ' ' + t[L][1]).toLowerCase().indexOf(q) < 0) return;
         grid.appendChild(card(t)); n++;
       });
       if (!n) grid.appendChild(h('p', 'ft-vuoto', tx.vuoto));
     }
     function draw() { drawTabs(); drawGrid(); }
-    q.addEventListener('input', function () { st.q = q.value; drawGrid(); });
-    draw();
-
-    var f = h('section', 'ft-feat');
-    f.innerHTML = '<div><b>' + tx.f1 + '</b><span>' + tx.f1t + '</span></div><div><b>' + tx.f2 + '</b><span>' + tx.f2t + '</span></div><div><b>' + tx.f3 + '</b><span>' + tx.f3t + '</span></div>';
-    app.appendChild(f);
-    var m = h('p', 'ft-manca', tx.manca + ' - <a href="' + contactUrl() + '">' + tx.manca2 + '</a>');
-    app.appendChild(m);
+    hb.q.addEventListener('input', drawGrid); draw(); footer();
+    document.title = s[L] + ' | FreeTool';
   }
 
   /* ---------------------------------- ALTCHA (stessa prova del form contatti) ---------------------------------- */
@@ -171,11 +188,12 @@
   /* ---------------------------------- PAGINA STRUMENTO ---------------------------------- */
   function pagina() {
     var t = toolById(TOOL);
-    if (!t) { app.innerHTML = '<p class="ft-vuoto"><a href="' + homeUrl() + '">' + tx.home + '</a></p>'; return; }
+    if (!t) { app.innerHTML = '<p class="ft-vuoto"><a href="' + homeUrl() + '">' + tx.homeL + '</a></p>'; return; }
     var c = cat(t.cat);
     app.innerHTML = ''; app.className = 'ft ft-tool';
     if (ENDPOINT) prepara();
-    var bc = h('p', 'ft-bc', '<a href="' + homeUrl() + '">' + tx.home + '</a> &rsaquo; ' + esc(c[L]));
+    var sx = sect(c.settore);
+    var bc = h('p', 'ft-bc', '<a href="' + homeUrl() + '">' + tx.homeL + '</a>' + (sx ? ' &rsaquo; <a href="' + sectorUrl(sx) + '">' + esc(sx[L]) + '</a>' : '') + ' &rsaquo; ' + esc(c[L]));
     var box = h('section', 'ft-box');
     box.innerHTML = '<span class="ft-ico big" style="background:' + c.colore + '">' + t.ico + '</span><h1>' + esc(t[L][0]) + '</h1><p>' + esc(t[L][1]) + '</p>';
     app.appendChild(bc); app.appendChild(box);
@@ -257,7 +275,7 @@
     document.title = t[L][0] + ' | FreeTool';
   }
 
-  fetch(BASE + '/assets/data/strumenti.json?v=1').then(function (r) { return r.json(); }).then(function (d) {
-    DATA = d; if (MODE === 'tool') pagina(); else home();
+  fetch(BASE + '/assets/data/strumenti.json?v=2').then(function (r) { return r.json(); }).then(function (d) {
+    DATA = d; if (MODE === 'tool') pagina(); else if (MODE === 'settore') settore(); else home();
   }).catch(function () { app.innerHTML = '<p class="ft-vuoto">...</p>'; });
 })();

@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /en/
+  - title: "PDF tools"
+    url: /en/pdf-tools/
   - title: "Blog"
     url: /en/blog/
   - title: "About us"

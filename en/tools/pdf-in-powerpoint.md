@@ -7,8 +7,8 @@ description: "Turn the PDF into an editable presentation. Free, nothing to insta
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 964wqt
 permalink: /en/tools/pdf-in-powerpoint/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-powerpoint" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to PowerPoint</h1><p>Turn the PDF into an editable presentation.</p></section></div>
-<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

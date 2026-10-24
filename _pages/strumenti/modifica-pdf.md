@@ -7,4 +7,4 @@ description: "Aggiungi testo, immagini, forme e note a mano libera. Gratis, senz
 permalink: /strumenti/modifica-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="modifica-pdf" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Modifica PDF</h1><p>Aggiungi testo, immagini, forme e note a mano libera.</p></section></div>
-<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

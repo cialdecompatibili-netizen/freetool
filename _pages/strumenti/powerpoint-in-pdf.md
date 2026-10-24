@@ -7,4 +7,4 @@ description: "Converti le presentazioni in PDF pronti da condividere. Gratis, se
 permalink: /strumenti/powerpoint-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="powerpoint-in-pdf" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PowerPoint in PDF</h1><p>Converti le presentazioni in PDF pronti da condividere.</p></section></div>
-<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

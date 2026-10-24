@@ -7,4 +7,4 @@ description: "Trasforma le foto dei documenti in un PDF pulito. Gratis, senza in
 permalink: /strumenti/scansiona-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="scansiona-in-pdf" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Scansiona in PDF</h1><p>Trasforma le foto dei documenti in un PDF pulito.</p></section></div>
-<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

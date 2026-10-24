@@ -7,4 +7,4 @@ description: "Elimina le pagine che non servono da un documento. Gratis, senza i
 permalink: /strumenti/rimuovi-pagine-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="rimuovi-pagine-pdf" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Rimuovi pagine PDF</h1><p>Elimina le pagine che non servono da un documento.</p></section></div>
-<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

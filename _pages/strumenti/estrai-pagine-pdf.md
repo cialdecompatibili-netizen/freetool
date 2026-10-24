@@ -7,4 +7,4 @@ description: "Salva solo alcune pagine in un nuovo PDF. Gratis, senza installare
 permalink: /strumenti/estrai-pagine-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="estrai-pagine-pdf" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Estrai pagine PDF</h1><p>Salva solo alcune pagine in un nuovo PDF.</p></section></div>
-<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

@@ -14,9 +14,15 @@ dice quale strumento le serviva. Cosi' si capisce **dove vale la pena sviluppare
 4. La registrazione va al worker Cloudflare **contatti-form** (`C:\Users\mirco\Desktop\claudetemp\contatti-worker`, antispam ALTCHA + honeypot + tempo minimo) che la scrive nel **foglio Google** (voce "Messaggi" dell'admin). Riconoscibile da: nome `Registrazione FreeTool`, tipo `registrazione-tool`, messaggio `Strumento richiesto: <id> ...`.
 5. Lo stesso utente, dopo la prima volta, non reinserisce l'email (localStorage `ft_email`): ogni nuovo strumento provato e' un nuovo voto.
 
+## Struttura: HOME = tessere dei settori
+- **Home** = una tessera (quadrato) per ogni **settore**, oggi una sola: "Strumenti PDF". NON elenca i tool. La ricerca in home cerca tra tutti i tool di tutti i settori.
+- Clic sulla tessera = **pagina del settore** (`/strumenti-pdf/`, `/en/pdf-tools/`) con la griglia dei suoi strumenti e le categorie. Clic su uno strumento = pagina dello strumento.
+- **Menu**: Home + una voce per settore (fino a 3 settori; oltre 3 diventa la tendina "Strumenti"). Lo scrive `genera_strumenti.py`: non modificare a mano le voci dei settori.
+- **Aggiungere un settore** (es. Immagini, Video, Ufficio, IA...): in `assets/data/strumenti.json` aggiungi in `settori` (id, it, en, slug.it, slug.en, ico, colore, desc.it, desc.en), le sue `categorie` (con `settore`) e i suoi `strumenti`; poi `python automation\genera_strumenti.py` e `python automation\allinea_hash.py`. Tessera, pagina, menu e pagine dei tool compaiono da soli.
+
 ## Il catalogo
 - Obiettivo: **tutti gli strumenti utili del mondo, in ordine di profitto/domanda**. Si parte dai PDF; poi immagini, video e audio, ufficio e fatture, testi, LLM e IA, sviluppatori, SEO e marketing, studenti, immobiliare, HR, ecc.
-- Fonte unica: `assets/data/strumenti.json` (settori > categorie > strumenti). **L'ordine nel file e' la priorita' di profitto.** Un nuovo settore = una voce in `settori`, le sue `categorie` e i suoi `strumenti`: i tab compaiono da soli.
+- Fonte unica: `assets/data/strumenti.json` (settori > categorie > strumenti). **L'ordine nel file e' la priorita' di profitto.**
 - Dopo ogni modifica: `python automation\genera_strumenti.py` (crea le pagine IT+EN e il fallback della home), poi `python automation\allinea_hash.py`, commit e push.
 - Per sapere cosa sviluppare: leggere il foglio, contare le righe per `Strumento richiesto`.
 

@@ -7,8 +7,8 @@ description: "Get a summary with the key points in seconds. Free, nothing to ins
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: ekhtzu
 permalink: /en/tools/riassumi-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="riassumi-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Summarize PDF with AI</h1><p>Get a summary with the key points in seconds.</p></section></div>
-<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>
