@@ -3,6 +3,10 @@ main:
     url: /
   - title: "Strumenti PDF"
     url: /strumenti-pdf/
+  - title: "Strumenti immagini"
+    url: /strumenti-immagini/
+  - title: "Audio e video"
+    url: /audio-e-video/
   - title: "Blog"
     url: /blog/
   - title: "Chi siamo"

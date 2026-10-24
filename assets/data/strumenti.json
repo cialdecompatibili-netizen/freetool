@@ -14,6 +14,36 @@
     "it": "Unisci, dividi, comprimi, converti, firma e riassumi i tuoi PDF.",
     "en": "Merge, split, compress, convert, sign and summarize your PDFs."
    }
+  },
+  {
+   "id": "immagini",
+   "it": "Strumenti immagini",
+   "en": "Image tools",
+   "slug": {
+    "it": "strumenti-immagini",
+    "en": "image-tools"
+   },
+   "ico": "🖼️",
+   "colore": "#7c3aed",
+   "desc": {
+    "it": "Togli lo sfondo, ingrandisci, comprimi e converti le tue immagini.",
+    "en": "Remove backgrounds, upscale, compress and convert your images."
+   }
+  },
+  {
+   "id": "audio-video",
+   "it": "Audio e video",
+   "en": "Audio & video",
+   "slug": {
+    "it": "audio-e-video",
+    "en": "audio-video-tools"
+   },
+   "ico": "🎬",
+   "colore": "#0ea5e9",
+   "desc": {
+    "it": "Trascrivi, sottotitola, comprimi e converti audio e video.",
+    "en": "Transcribe, caption, compress and convert audio and video."
+   }
   }
  ],
  "categorie": [
@@ -72,6 +102,55 @@
    "it": "Crea PDF",
    "en": "Create PDF",
    "colore": "#f59e0b"
+  },
+  {
+   "id": "img-ia",
+   "settore": "immagini",
+   "it": "Immagini e IA",
+   "en": "Images and AI",
+   "colore": "#7c3aed"
+  },
+  {
+   "id": "img-ottimizza",
+   "settore": "immagini",
+   "it": "Ottimizza immagini",
+   "en": "Optimize images",
+   "colore": "#22a559"
+  },
+  {
+   "id": "img-converti",
+   "settore": "immagini",
+   "it": "Converti immagini",
+   "en": "Convert images",
+   "colore": "#f59e0b"
+  },
+  {
+   "id": "img-modifica",
+   "settore": "immagini",
+   "it": "Modifica immagini",
+   "en": "Edit images",
+   "colore": "#e5322d"
+  },
+  {
+   "id": "av-trascrivi",
+   "settore": "audio-video",
+   "it": "Trascrivi e sottotitola",
+   "en": "Transcribe & caption",
+   "colore": "#0ea5e9"
+  },
+  {
+   "id": "av-video",
+   "settore": "audio-video",
+   "it": "Video",
+   "en": "Video",
+   "colore": "#e5322d"
+  },
+  {
+   "id": "av-audio",
+   "settore": "audio-video",
+   "it": "Audio",
+   "en": "Audio",
+   "colore": "#22a559"
   }
  ],
  "strumenti": [
@@ -144,6 +223,40 @@
    ]
   },
   {
+   "id": "riassunto-in-email",
+   "cat": "ai",
+   "ico": "✉️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "PDF in email",
+    "Una bozza di email che riassume il documento."
+   ],
+   "en": [
+    "PDF to email",
+    "A draft email that sums up the document."
+   ]
+  },
+  {
+   "id": "pdf-in-presentazione-ia",
+   "cat": "ai",
+   "ico": "📽️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Crea presentazione dal PDF",
+    "Slide con titoli e punti chiave a partire da un documento."
+   ],
+   "en": [
+    "Make slides from PDF",
+    "Slides with titles and key points from a document."
+   ]
+  },
+  {
    "id": "chatta-con-pdf",
    "cat": "ai",
    "ico": "💬",
@@ -195,6 +308,40 @@
    ]
   },
   {
+   "id": "traduci-paper-pdf",
+   "cat": "ai",
+   "ico": "🧪",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Traduci articolo scientifico",
+    "Traduce paper con formule e figure senza rovinare l'impaginazione."
+   ],
+   "en": [
+    "Translate research paper",
+    "Translates papers with formulas and figures without breaking the layout."
+   ]
+  },
+  {
+   "id": "pdf-bilingue",
+   "cat": "ai",
+   "ico": "🌍",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "PDF bilingue affiancato",
+    "Originale e traduzione affiancati, pagina per pagina."
+   ],
+   "en": [
+    "Bilingual side-by-side PDF",
+    "Original and translation side by side, page by page."
+   ]
+  },
+  {
    "id": "estrai-dati-pdf",
    "cat": "estrai",
    "ico": "🧾",
@@ -212,6 +359,23 @@
    ]
   },
   {
+   "id": "xml-fattura-in-pdf",
+   "cat": "converti",
+   "ico": "🇮🇹",
+   "input": "file",
+   "accept": ".xml,.p7m",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Fattura elettronica XML in PDF",
+    "Leggi e stampa la fattura elettronica (XML o P7M) in un PDF chiaro."
+   ],
+   "en": [
+    "Italian e-invoice XML to PDF",
+    "Read and print Italian electronic invoices (XML or P7M) as a clear PDF."
+   ]
+  },
+  {
    "id": "firma-pdf",
    "cat": "sicurezza",
    "ico": "✍️",
@@ -226,6 +390,57 @@
    "en": [
     "Sign PDF",
     "Sign the document yourself or ask others to sign."
+   ]
+  },
+  {
+   "id": "richiedi-firme-pdf",
+   "cat": "sicurezza",
+   "ico": "📨",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Richiedi firme",
+    "Invia il documento a più persone e raccogli le firme."
+   ],
+   "en": [
+    "Request signatures",
+    "Send the document to several people and collect signatures."
+   ]
+  },
+  {
+   "id": "firma-con-certificato-pdf",
+   "cat": "sicurezza",
+   "ico": "🪪",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Firma con certificato",
+    "Firma digitale con il tuo certificato."
+   ],
+   "en": [
+    "Sign with certificate",
+    "Digital signature with your own certificate."
+   ]
+  },
+  {
+   "id": "apri-p7m",
+   "cat": "sicurezza",
+   "ico": "🔏",
+   "input": "file",
+   "accept": ".p7m",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Apri file P7M",
+    "Estrai il documento dentro un file firmato .p7m."
+   ],
+   "en": [
+    "Open P7M file",
+    "Extract the document inside a signed .p7m file."
    ]
   },
   {
@@ -277,6 +492,23 @@
    "en": [
     "Edit PDF",
     "Add text, images, shapes and freehand notes."
+   ]
+  },
+  {
+   "id": "modifica-testo-pdf",
+   "cat": "modifica",
+   "ico": "📝",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Modifica testo nel PDF",
+    "Cambia le parole direttamente nel documento."
+   ],
+   "en": [
+    "Edit PDF text",
+    "Change the words right inside the document."
    ]
   },
   {
@@ -348,6 +580,23 @@
    ]
   },
   {
+   "id": "azioni-da-verbale",
+   "cat": "ai",
+   "ico": "✅",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Estrai azioni dal verbale",
+    "Decisioni, responsabili e scadenze in una lista."
+   ],
+   "en": [
+    "Extract action items",
+    "Decisions, owners and deadlines as a list."
+   ]
+  },
+  {
    "id": "anonimizza-pdf",
    "cat": "ai",
    "ico": "🕶️",
@@ -396,6 +645,40 @@
    "en": [
     "PDF to Markdown",
     "Convert the PDF to Markdown, great for notes and LLMs."
+   ]
+  },
+  {
+   "id": "file-in-markdown",
+   "cat": "estrai",
+   "ico": "⬇️",
+   "input": "file",
+   "accept": ".doc,.docx,.xls,.xlsx,.ppt,.pptx,.html,.htm,.csv,.epub,.pdf",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Qualsiasi file in Markdown",
+    "Word, Excel, PowerPoint, HTML e PDF in Markdown pulito per gli LLM."
+   ],
+   "en": [
+    "Any file to Markdown",
+    "Word, Excel, PowerPoint, HTML and PDF as clean Markdown for LLMs."
+   ]
+  },
+  {
+   "id": "prepara-pdf-per-rag",
+   "cat": "estrai",
+   "ico": "🧱",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Prepara PDF per chatbot",
+    "Spezza il documento in blocchi pronti per un chatbot o una ricerca con IA."
+   ],
+   "en": [
+    "Prepare PDF for chatbots",
+    "Splits the document into chunks ready for a chatbot or AI search."
    ]
   },
   {
@@ -464,6 +747,40 @@
    "en": [
     "PDF to JSON",
     "Structured data ready for your software."
+   ]
+  },
+  {
+   "id": "pdf-in-latex",
+   "cat": "estrai",
+   "ico": "∑",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "PDF in LaTeX",
+    "Articoli e dispense in LaTeX, con le formule al loro posto."
+   ],
+   "en": [
+    "PDF to LaTeX",
+    "Papers and handouts as LaTeX, with formulas intact."
+   ]
+  },
+  {
+   "id": "estrai-formule-pdf",
+   "cat": "estrai",
+   "ico": "🔣",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Estrai formule matematiche",
+    "Le formule del PDF o di una foto in LaTeX."
+   ],
+   "en": [
+    "Extract math formulas",
+    "Formulas from a PDF or photo as LaTeX."
    ]
   },
   {
@@ -552,6 +869,40 @@
    ]
   },
   {
+   "id": "elabora-in-blocco",
+   "cat": "organizza",
+   "ico": "📦",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Elabora in blocco",
+    "Applica la stessa operazione a decine di PDF insieme."
+   ],
+   "en": [
+    "Batch process",
+    "Apply the same operation to dozens of PDFs at once."
+   ]
+  },
+  {
+   "id": "automazioni-pdf",
+   "cat": "organizza",
+   "ico": "⚙️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Automazioni PDF",
+    "Concatena più passaggi (comprimi, OCR, firma) in un solo flusso."
+   ],
+   "en": [
+    "PDF workflows",
+    "Chain several steps (compress, OCR, sign) into one flow."
+   ]
+  },
+  {
    "id": "comprimi-a-dimensione",
    "cat": "ottimizza",
    "ico": "🎯",
@@ -566,6 +917,23 @@
    "en": [
     "Compress to a size",
     "Brings the PDF under a set size, such as 2 MB."
+   ]
+  },
+  {
+   "id": "comprimi-forte-pdf",
+   "cat": "ottimizza",
+   "ico": "🗜️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Compressione forte",
+    "Il massimo risparmio di spazio per i file più pesanti."
+   ],
+   "en": [
+    "Strong compression",
+    "Maximum space savings for the heaviest files."
    ]
   },
   {
@@ -787,6 +1155,23 @@
    "en": [
     "Multilingual OCR",
     "Text recognition in 100+ languages."
+   ]
+  },
+  {
+   "id": "ocr-cjk",
+   "cat": "ottimizza",
+   "ico": "🈶",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "OCR cinese, giapponese, coreano",
+    "Riconosce testi in ideogrammi con alta precisione."
+   ],
+   "en": [
+    "CJK OCR",
+    "Reads ideographic text with high accuracy."
    ]
   },
   {
@@ -1297,6 +1682,40 @@
    "en": [
     "PDF to PDF/A",
     "Prepare the document for long-term archiving."
+   ]
+  },
+  {
+   "id": "pdf-per-stampa",
+   "cat": "ottimizza",
+   "ico": "🖨️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "PDF per la stampa",
+    "Controlla e prepara il file per la tipografia (PDF/X)."
+   ],
+   "en": [
+    "Print-ready PDF",
+    "Checks and prepares your file for the print shop (PDF/X)."
+   ]
+  },
+  {
+   "id": "pdf-accessibile",
+   "cat": "ottimizza",
+   "ico": "♿",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Rendi il PDF accessibile",
+    "Tag, ordine di lettura e testo alternativo con IA."
+   ],
+   "en": [
+    "Make PDF accessible",
+    "Tags, reading order and alt text with AI."
    ]
   },
   {
@@ -1926,6 +2345,737 @@
    "en": [
     "Extract links",
     "A list of every link in the PDF."
+   ]
+  },
+  {
+   "id": "rimuovi-sfondo",
+   "cat": "img-ia",
+   "ico": "✂️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Rimuovi sfondo",
+    "Toglie lo sfondo da una foto e lascia solo il soggetto."
+   ],
+   "en": [
+    "Remove background",
+    "Cuts the background out and keeps only the subject."
+   ]
+  },
+  {
+   "id": "ingrandisci-immagine",
+   "cat": "img-ia",
+   "ico": "🔭",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Ingrandisci immagine con IA",
+    "Porta le foto piccole in alta risoluzione senza sgranare."
+   ],
+   "en": [
+    "AI image upscaler",
+    "Brings small photos to high resolution without pixelation."
+   ]
+  },
+  {
+   "id": "comprimi-immagine",
+   "cat": "img-ottimizza",
+   "ico": "🗜️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Comprimi immagine",
+    "Meno peso per JPG, PNG e WebP, con qualità quasi uguale."
+   ],
+   "en": [
+    "Compress image",
+    "Smaller JPG, PNG and WebP files with almost identical quality."
+   ]
+  },
+  {
+   "id": "rimuovi-oggetti-foto",
+   "cat": "img-ia",
+   "ico": "🧹",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Rimuovi oggetti dalla foto",
+    "Cancella persone, scritte o oggetti e riempie lo spazio."
+   ],
+   "en": [
+    "Remove objects from photo",
+    "Erases people, text or objects and fills the gap."
+   ]
+  },
+  {
+   "id": "heic-in-jpg",
+   "cat": "img-converti",
+   "ico": "📱",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "HEIC in JPG",
+    "Le foto dell'iPhone in JPG leggibili ovunque."
+   ],
+   "en": [
+    "HEIC to JPG",
+    "iPhone photos as JPG that open anywhere."
+   ]
+  },
+  {
+   "id": "foto-tessera",
+   "cat": "img-modifica",
+   "ico": "🪪",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Foto tessera",
+    "Ritaglio e sfondo a norma per documenti, pronti da stampare."
+   ],
+   "en": [
+    "Passport photo maker",
+    "Compliant crop and background for IDs, ready to print."
+   ]
+  },
+  {
+   "id": "migliora-foto-volti",
+   "cat": "img-ia",
+   "ico": "😀",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Migliora volti",
+    "Rende nitidi i volti nelle foto sfocate o vecchie."
+   ],
+   "en": [
+    "Enhance faces",
+    "Sharpens faces in blurry or old photos."
+   ]
+  },
+  {
+   "id": "restaura-foto-vecchie",
+   "cat": "img-ia",
+   "ico": "🕰️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Restaura foto vecchie",
+    "Toglie graffi e macchie e riporta vita ai ricordi."
+   ],
+   "en": [
+    "Restore old photos",
+    "Removes scratches and stains and brings memories back."
+   ]
+  },
+  {
+   "id": "colora-foto",
+   "cat": "img-ia",
+   "ico": "🎨",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Colora foto in bianco e nero",
+    "Aggiunge i colori alle foto storiche."
+   ],
+   "en": [
+    "Colorize black & white photos",
+    "Adds color to historic photos."
+   ]
+  },
+  {
+   "id": "immagine-in-testo",
+   "cat": "img-ia",
+   "ico": "🔍",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Immagine in testo (OCR)",
+    "Copia il testo da foto, screenshot e scansioni."
+   ],
+   "en": [
+    "Image to text (OCR)",
+    "Copy text from photos, screenshots and scans."
+   ]
+  },
+  {
+   "id": "descrivi-immagine",
+   "cat": "img-ia",
+   "ico": "🏷️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Descrivi immagine",
+    "Testo alternativo e didascalie SEO generati dall'IA."
+   ],
+   "en": [
+    "Describe image",
+    "AI-written alt text and SEO captions."
+   ]
+  },
+  {
+   "id": "sfoca-volti-foto",
+   "cat": "img-ia",
+   "ico": "🫥",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Sfoca volti e targhe",
+    "Anonimizza persone e targhe in foto e immagini."
+   ],
+   "en": [
+    "Blur faces & plates",
+    "Anonymize people and license plates in photos."
+   ]
+  },
+  {
+   "id": "ridimensiona-immagine",
+   "cat": "img-ottimizza",
+   "ico": "📏",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Ridimensiona immagine",
+    "Scegli larghezza e altezza o i formati dei social."
+   ],
+   "en": [
+    "Resize image",
+    "Pick width and height or social media sizes."
+   ]
+  },
+  {
+   "id": "ritaglia-immagine",
+   "cat": "img-modifica",
+   "ico": "✂️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Ritaglia immagine",
+    "Taglia a mano o con formati pronti."
+   ],
+   "en": [
+    "Crop image",
+    "Crop by hand or with ready-made ratios."
+   ]
+  },
+  {
+   "id": "rimuovi-metadati-immagine",
+   "cat": "img-ottimizza",
+   "ico": "🧼",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Rimuovi dati EXIF",
+    "Toglie posizione GPS e info dello scatto."
+   ],
+   "en": [
+    "Remove EXIF data",
+    "Strips GPS location and shot info."
+   ]
+  },
+  {
+   "id": "png-in-jpg",
+   "cat": "img-converti",
+   "ico": "🔄",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "PNG in JPG",
+    "Converti PNG in JPG leggeri."
+   ],
+   "en": [
+    "PNG to JPG",
+    "Convert PNG into lightweight JPG."
+   ]
+  },
+  {
+   "id": "jpg-in-png",
+   "cat": "img-converti",
+   "ico": "🔄",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "JPG in PNG",
+    "Converti JPG in PNG."
+   ],
+   "en": [
+    "JPG to PNG",
+    "Convert JPG into PNG."
+   ]
+  },
+  {
+   "id": "webp-in-jpg",
+   "cat": "img-converti",
+   "ico": "🔄",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "WebP in JPG",
+    "Converti WebP in JPG o PNG."
+   ],
+   "en": [
+    "WebP to JPG",
+    "Convert WebP into JPG or PNG."
+   ]
+  },
+  {
+   "id": "svg-in-png",
+   "cat": "img-converti",
+   "ico": "🔄",
+   "input": "file",
+   "accept": ".svg,image/svg+xml",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "SVG in PNG",
+    "Rasterizza un SVG alla dimensione che vuoi."
+   ],
+   "en": [
+    "SVG to PNG",
+    "Rasterize an SVG at any size."
+   ]
+  },
+  {
+   "id": "immagine-in-svg",
+   "cat": "img-converti",
+   "ico": "✒️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Immagine in vettoriale",
+    "Trasforma logo e disegni in SVG ridimensionabile."
+   ],
+   "en": [
+    "Image to vector",
+    "Turns logos and drawings into scalable SVG."
+   ]
+  },
+  {
+   "id": "aggiungi-filigrana-immagine",
+   "cat": "img-modifica",
+   "ico": "💧",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Filigrana su immagine",
+    "Proteggi le tue foto con testo o logo."
+   ],
+   "en": [
+    "Watermark image",
+    "Protect your photos with text or a logo."
+   ]
+  },
+  {
+   "id": "unisci-immagini",
+   "cat": "img-modifica",
+   "ico": "🧩",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Unisci immagini",
+    "Collage e strisce di più foto in una."
+   ],
+   "en": [
+    "Combine images",
+    "Collages and strips of several photos in one."
+   ]
+  },
+  {
+   "id": "ruota-immagine",
+   "cat": "img-modifica",
+   "ico": "🔃",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Ruota e specchia",
+    "Gira le foto nel verso giusto."
+   ],
+   "en": [
+    "Rotate & flip",
+    "Turn photos the right way up."
+   ]
+  },
+  {
+   "id": "trascrivi-audio",
+   "cat": "av-trascrivi",
+   "ico": "🎤",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Trascrivi audio",
+    "Da registrazioni e messaggi vocali a testo, in 99 lingue."
+   ],
+   "en": [
+    "Transcribe audio",
+    "From recordings and voice notes to text, in 99 languages."
+   ]
+  },
+  {
+   "id": "sottotitoli-automatici",
+   "cat": "av-trascrivi",
+   "ico": "💬",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Sottotitoli automatici",
+    "Crea i sottotitoli (SRT) di un video, anche tradotti."
+   ],
+   "en": [
+    "Auto subtitles",
+    "Creates subtitles (SRT) for a video, even translated."
+   ]
+  },
+  {
+   "id": "verbale-riunione",
+   "cat": "av-trascrivi",
+   "ico": "📋",
+   "input": "file",
+   "accept": "audio/*,video/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Verbale di riunione",
+    "Dall'audio o dal video a verbale con decisioni e azioni."
+   ],
+   "en": [
+    "Meeting minutes",
+    "From audio or video to minutes with decisions and action items."
+   ]
+  },
+  {
+   "id": "riassumi-video",
+   "cat": "av-trascrivi",
+   "ico": "📺",
+   "input": "url",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Riassumi video",
+    "Incolla il link di un video e ricevi i punti chiave."
+   ],
+   "en": [
+    "Summarize video",
+    "Paste a video link and get the key points."
+   ]
+  },
+  {
+   "id": "trascrivi-video",
+   "cat": "av-trascrivi",
+   "ico": "🎞️",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Trascrivi video",
+    "Il parlato di un video in testo con i tempi."
+   ],
+   "en": [
+    "Transcribe video",
+    "A video's speech as timestamped text."
+   ]
+  },
+  {
+   "id": "traduci-sottotitoli",
+   "cat": "av-trascrivi",
+   "ico": "🌍",
+   "input": "file",
+   "accept": ".srt,.vtt",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Traduci sottotitoli",
+    "Da SRT in una lingua a SRT in un'altra."
+   ],
+   "en": [
+    "Translate subtitles",
+    "From SRT in one language to another."
+   ]
+  },
+  {
+   "id": "comprimi-video",
+   "cat": "av-video",
+   "ico": "🗜️",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Comprimi video",
+    "Riduci il peso senza rovinare la qualità."
+   ],
+   "en": [
+    "Compress video",
+    "Cut file size without hurting quality."
+   ]
+  },
+  {
+   "id": "video-in-mp4",
+   "cat": "av-video",
+   "ico": "🔄",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Video in MP4",
+    "Converti MOV, AVI, MKV e WebM in MP4."
+   ],
+   "en": [
+    "Video to MP4",
+    "Convert MOV, AVI, MKV and WebM to MP4."
+   ]
+  },
+  {
+   "id": "video-in-gif",
+   "cat": "av-video",
+   "ico": "🌀",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Video in GIF",
+    "Una clip diventa una GIF animata."
+   ],
+   "en": [
+    "Video to GIF",
+    "A clip becomes an animated GIF."
+   ]
+  },
+  {
+   "id": "taglia-video",
+   "cat": "av-video",
+   "ico": "✂️",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Taglia video",
+    "Scegli inizio e fine e salva solo quel pezzo."
+   ],
+   "en": [
+    "Trim video",
+    "Pick the start and end and keep just that part."
+   ]
+  },
+  {
+   "id": "video-per-social",
+   "cat": "av-video",
+   "ico": "📱",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Video per i social",
+    "Ridimensiona per Reels, TikTok, Shorts e Stories."
+   ],
+   "en": [
+    "Video for social",
+    "Resize for Reels, TikTok, Shorts and Stories."
+   ]
+  },
+  {
+   "id": "rimuovi-sfondo-video",
+   "cat": "av-video",
+   "ico": "🪄",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Rimuovi sfondo dal video",
+    "Toglie lo sfondo di una clip, senza green screen."
+   ],
+   "en": [
+    "Remove video background",
+    "Removes a clip's background, no green screen needed."
+   ]
+  },
+  {
+   "id": "estrai-audio-da-video",
+   "cat": "av-audio",
+   "ico": "🎵",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Estrai audio dal video",
+    "Salva la traccia audio in MP3."
+   ],
+   "en": [
+    "Extract audio from video",
+    "Save the audio track as MP3."
+   ]
+  },
+  {
+   "id": "converti-audio",
+   "cat": "av-audio",
+   "ico": "🔄",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Converti audio",
+    "MP3, WAV, M4A, OGG e FLAC l'uno nell'altro."
+   ],
+   "en": [
+    "Convert audio",
+    "MP3, WAV, M4A, OGG and FLAC into one another."
+   ]
+  },
+  {
+   "id": "taglia-audio",
+   "cat": "av-audio",
+   "ico": "✂️",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Taglia audio",
+    "Ritaglia una parte della registrazione."
+   ],
+   "en": [
+    "Trim audio",
+    "Cut out part of a recording."
+   ]
+  },
+  {
+   "id": "unisci-audio",
+   "cat": "av-audio",
+   "ico": "🔗",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Unisci audio",
+    "Metti insieme più tracce in un solo file."
+   ],
+   "en": [
+    "Merge audio",
+    "Join several tracks into one file."
+   ]
+  },
+  {
+   "id": "rimuovi-rumore-audio",
+   "cat": "av-audio",
+   "ico": "🔇",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Rimuovi rumore",
+    "Toglie fruscii e rumore di fondo dalla voce."
+   ],
+   "en": [
+    "Remove noise",
+    "Strips hiss and background noise from voice."
+   ]
+  },
+  {
+   "id": "separa-voce-musica",
+   "cat": "av-audio",
+   "ico": "🎼",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Separa voce e musica",
+    "Isola la voce o la base strumentale da un brano."
+   ],
+   "en": [
+    "Split vocals & music",
+    "Isolates the vocals or the instrumental from a track."
+   ]
+  },
+  {
+   "id": "testo-in-voce",
+   "cat": "av-audio",
+   "ico": "🗣️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Testo in voce",
+    "Scrivi un testo e ascolta una voce naturale in MP3."
+   ],
+   "en": [
+    "Text to speech",
+    "Type text and get a natural voice as MP3."
+   ]
+  },
+  {
+   "id": "doppiaggio-ia",
+   "cat": "av-audio",
+   "ico": "🎙️",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Doppiaggio con IA",
+    "Traduce il parlato di un video e lo rifà in un'altra lingua."
+   ],
+   "en": [
+    "AI dubbing",
+    "Translates a video's speech and re-voices it in another language."
    ]
   }
  ]
