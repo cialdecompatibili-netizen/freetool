@@ -47,8 +47,7 @@
 .nv__dd--wide { left: auto; right: 1rem; width: min(44rem, calc(100vw - 2rem)); columns: 2; column-gap: 0; }
 .nv__dd--wide .nv__dd-item { white-space: normal; break-inside: avoid; }
 .nv__dd--wide .nv__divider { column-span: all; }
-/* prima voce della tendina (es. "Tutti i servizi"): centrata, su tutta la larghezza */
-.nv__dd > .nv__dd-item:first-child { text-align: center; font-weight: 600; column-span: all; }
+/* nessuna voce speciale: tutte le voci della tendina sono uguali (FreeTool) */
 
 /* strumenti (lente + carrello) */
 .nv__tools { display: flex; align-items: center; gap: .35rem; padding-left: .35rem; }
