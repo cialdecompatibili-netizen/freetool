@@ -8,3 +8,19 @@ Tools:
     url: /en/audio-tools/
   - title: "Video tools"
     url: /en/video-tools/
+  - title: "Writing tools"
+    url: /en/writing-tools/
+  - title: "Office and data tools"
+    url: /en/office-tools/
+  - title: "Business and tax tools"
+    url: /en/business-tools/
+  - title: "Study tools"
+    url: /en/study-tools/
+  - title: "SEO and social tools"
+    url: /en/seo-social-tools/
+  - title: "Developer tools"
+    url: /en/developer-tools/
+  - title: "Privacy and security tools"
+    url: /en/privacy-tools/
+  - title: "Calculators and converters"
+    url: /en/calculators/

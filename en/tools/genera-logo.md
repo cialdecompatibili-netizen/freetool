@@ -7,7 +7,7 @@ description: "Describe your business and get logo options as SVG and PNG. Free, 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: yy80u0
+tr_hash: hm1ouo
 permalink: /en/tools/genera-logo/
 ---
 <div id="ft-app" data-mode="tool" data-tool="genera-logo" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>AI logo maker</h1><p>Describe your business and get logo options as SVG and PNG.</p></section></div>

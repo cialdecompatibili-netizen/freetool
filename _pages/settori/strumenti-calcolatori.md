@@ -1,0 +1,10 @@
+---
+ref: settore-utility
+layout: default
+title: "Calcolatori e convertitori gratuiti online"
+seo_description: "Percentuali, unità, mutuo, date e tutto quello che serve ogni giorno. Gratis, senza installare nulla."
+description: "Percentuali, unità, mutuo, date e tutto quello che serve ogni giorno. Gratis, senza installare nulla."
+permalink: /strumenti-calcolatori/
+---
+<div id="ft-app" data-mode="settore" data-sector="utility" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><h1>Calcolatori e convertitori</h1><p>Percentuali, unità, mutuo, date e tutto quello che serve ogni giorno.</p><ul><li><a href="{{ '/strumenti/convertitore-unita/' | relative_url }}">Convertitore di unità</a></li><li><a href="{{ '/strumenti/calcola-percentuale/' | relative_url }}">Calcolatore di percentuali</a></li><li><a href="{{ '/strumenti/calcola-sconto/' | relative_url }}">Calcola sconto</a></li><li><a href="{{ '/strumenti/numeri-romani/' | relative_url }}">Numeri romani</a></li><li><a href="{{ '/strumenti/misure-cucina/' | relative_url }}">Misure di cucina</a></li><li><a href="{{ '/strumenti/calcola-mutuo/' | relative_url }}">Calcola rata del mutuo</a></li><li><a href="{{ '/strumenti/calcola-prestito/' | relative_url }}">Calcola rata del prestito</a></li><li><a href="{{ '/strumenti/calcola-bmi/' | relative_url }}">Calcola BMI</a></li><li><a href="{{ '/strumenti/calcola-carburante/' | relative_url }}">Consumo e costo carburante</a></li><li><a href="{{ '/strumenti/fuso-orario/' | relative_url }}">Convertitore fuso orario</a></li><li><a href="{{ '/strumenti/calcola-eta/' | relative_url }}">Calcola l'età</a></li><li><a href="{{ '/strumenti/differenza-date/' | relative_url }}">Differenza tra due date</a></li><li><a href="{{ '/strumenti/aggiungi-giorni/' | relative_url }}">Aggiungi giorni a una data</a></li><li><a href="{{ '/strumenti/conto-alla-rovescia/' | relative_url }}">Giorni mancanti a un evento</a></li><li><a href="{{ '/strumenti/numero-casuale/' | relative_url }}">Numero casuale e dado</a></li></ul></div>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

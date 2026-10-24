@@ -7,7 +7,7 @@ description: "Reads your bill, explains each line and shows where you may be ove
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1b02xuk
+tr_hash: 8iyluh
 permalink: /en/tools/analizza-bolletta/
 ---
 <div id="ft-app" data-mode="tool" data-tool="analizza-bolletta" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Utility bill analyzer</h1><p>Reads your bill, explains each line and shows where you may be overpaying.</p></section></div>

@@ -59,6 +59,126 @@
     "it": "Sottotitola, comprimi, taglia e converti i tuoi video.",
     "en": "Caption, compress, trim and convert your videos."
    }
+  },
+  {
+   "id": "testo",
+   "it": "Strumenti testo e scrittura",
+   "en": "Writing tools",
+   "slug": {
+    "it": "strumenti-testo",
+    "en": "writing-tools"
+   },
+   "ico": "✍️",
+   "colore": "#0ea5e9",
+   "desc": {
+    "it": "Riassumi, correggi, traduci e riscrivi i tuoi testi.",
+    "en": "Summarize, proofread, translate and rewrite your texts."
+   }
+  },
+  {
+   "id": "office",
+   "it": "Strumenti Word, Excel e dati",
+   "en": "Office and data tools",
+   "slug": {
+    "it": "strumenti-office",
+    "en": "office-tools"
+   },
+   "ico": "📊",
+   "colore": "#22a559",
+   "desc": {
+    "it": "Converti, pulisci e analizza file Excel, CSV e Word.",
+    "en": "Convert, clean and analyze Excel, CSV and Word files."
+   }
+  },
+  {
+   "id": "business",
+   "it": "Strumenti business e fisco",
+   "en": "Business and tax tools",
+   "slug": {
+    "it": "strumenti-business",
+    "en": "business-tools"
+   },
+   "ico": "💼",
+   "colore": "#f59e0b",
+   "desc": {
+    "it": "IVA, codice fiscale, preventivi, modelli e calcoli per chi lavora in Italia.",
+    "en": "VAT, tax code, quotes, templates and calculators for Italy."
+   }
+  },
+  {
+   "id": "studio",
+   "it": "Strumenti per studiare",
+   "en": "Study tools",
+   "slug": {
+    "it": "strumenti-studio",
+    "en": "study-tools"
+   },
+   "ico": "🎓",
+   "colore": "#8b5cf6",
+   "desc": {
+    "it": "Quiz, flashcard, schemi, bibliografia e tutor per studenti.",
+    "en": "Quizzes, flashcards, outlines, bibliography and tutors for students."
+   }
+  },
+  {
+   "id": "marketing",
+   "it": "Strumenti SEO e social",
+   "en": "SEO and social tools",
+   "slug": {
+    "it": "strumenti-seo-social",
+    "en": "seo-social-tools"
+   },
+   "ico": "📈",
+   "colore": "#e5322d",
+   "desc": {
+    "it": "Meta tag, hashtag, post e piani editoriali con l'IA.",
+    "en": "Meta tags, hashtags, posts and content calendars with AI."
+   }
+  },
+  {
+   "id": "sviluppatori",
+   "it": "Strumenti per sviluppatori",
+   "en": "Developer tools",
+   "slug": {
+    "it": "strumenti-sviluppatori",
+    "en": "developer-tools"
+   },
+   "ico": "💻",
+   "colore": "#4b5563",
+   "desc": {
+    "it": "JSON, regex, Base64, hash, QR code e codice con l'IA.",
+    "en": "JSON, regex, Base64, hashes, QR codes and code with AI."
+   }
+  },
+  {
+   "id": "privacy",
+   "it": "Strumenti privacy e sicurezza",
+   "en": "Privacy and security tools",
+   "slug": {
+    "it": "strumenti-privacy",
+    "en": "privacy-tools"
+   },
+   "ico": "🔒",
+   "colore": "#2d7ff9",
+   "desc": {
+    "it": "Password, truffe, phishing e protezione dei tuoi dati.",
+    "en": "Passwords, scams, phishing and protecting your data."
+   }
+  },
+  {
+   "id": "utility",
+   "it": "Calcolatori e convertitori",
+   "en": "Calculators and converters",
+   "slug": {
+    "it": "strumenti-calcolatori",
+    "en": "calculators"
+   },
+   "ico": "🧮",
+   "colore": "#f08a24",
+   "desc": {
+    "it": "Percentuali, unità, mutuo, date e tutto quello che serve ogni giorno.",
+    "en": "Percentages, units, mortgage, dates and everyday helpers."
+   }
   }
  ],
  "categorie": [
@@ -173,6 +293,132 @@
    "it": "Audio",
    "en": "Audio",
    "colore": "#22a559"
+  },
+  {
+   "id": "txt-scrivi",
+   "settore": "testo",
+   "it": "Scrivi e correggi",
+   "en": "Write and proofread",
+   "colore": "#0ea5e9"
+  },
+  {
+   "id": "txt-analizza",
+   "settore": "testo",
+   "it": "Analizza testo",
+   "en": "Analyze text",
+   "colore": "#22a559"
+  },
+  {
+   "id": "off-excel",
+   "settore": "office",
+   "it": "Excel e CSV",
+   "en": "Excel and CSV",
+   "colore": "#22a559"
+  },
+  {
+   "id": "off-word",
+   "settore": "office",
+   "it": "Word e documenti",
+   "en": "Word and documents",
+   "colore": "#2d7ff9"
+  },
+  {
+   "id": "biz-fisco",
+   "settore": "business",
+   "it": "Fisco e calcoli",
+   "en": "Tax and calculations",
+   "colore": "#f59e0b"
+  },
+  {
+   "id": "biz-doc",
+   "settore": "business",
+   "it": "Documenti e modelli",
+   "en": "Documents and templates",
+   "colore": "#8b5cf6"
+  },
+  {
+   "id": "stu-impara",
+   "settore": "studio",
+   "it": "Impara e ripassa",
+   "en": "Learn and review",
+   "colore": "#8b5cf6"
+  },
+  {
+   "id": "stu-scrivi",
+   "settore": "studio",
+   "it": "Tesi e voti",
+   "en": "Thesis and grades",
+   "colore": "#f59e0b"
+  },
+  {
+   "id": "mkt-seo",
+   "settore": "marketing",
+   "it": "SEO e contenuti",
+   "en": "SEO and content",
+   "colore": "#e5322d"
+  },
+  {
+   "id": "mkt-social",
+   "settore": "marketing",
+   "it": "Social media",
+   "en": "Social media",
+   "colore": "#0ea5e9"
+  },
+  {
+   "id": "dev-formato",
+   "settore": "sviluppatori",
+   "it": "Formattatori",
+   "en": "Formatters",
+   "colore": "#4b5563"
+  },
+  {
+   "id": "dev-codici",
+   "settore": "sviluppatori",
+   "it": "Codifica e hash",
+   "en": "Encoding and hashing",
+   "colore": "#2d7ff9"
+  },
+  {
+   "id": "dev-ia",
+   "settore": "sviluppatori",
+   "it": "Codice con l'IA",
+   "en": "Code with AI",
+   "colore": "#7c3aed"
+  },
+  {
+   "id": "dev-web",
+   "settore": "sviluppatori",
+   "it": "Strumenti web",
+   "en": "Web tools",
+   "colore": "#22a559"
+  },
+  {
+   "id": "prv-password",
+   "settore": "privacy",
+   "it": "Password",
+   "en": "Passwords",
+   "colore": "#2d7ff9"
+  },
+  {
+   "id": "prv-dati",
+   "settore": "privacy",
+   "it": "Truffe e dati",
+   "en": "Scams and data",
+   "colore": "#e5322d"
+  },
+  {
+   "id": "cal-conv",
+   "settore": "utility",
+   "it": "Calcolatori",
+   "en": "Calculators",
+   "colore": "#f08a24"
+  },
+  {
+   "id": "cal-data",
+   "settore": "utility",
+   "it": "Date e orari",
+   "en": "Dates and time",
+   "colore": "#0ea5e9"
   }
  ],
  "strumenti": [
@@ -254,7 +500,7 @@
    "nuovo": true,
    "it": [
     "Analizza bolletta luce e gas",
-    "Legge la bolletta, spiega le voci e ti dice dove stai pagando di piu'."
+    "Legge la bolletta, spiega le voci e ti dice dove stai pagando di più."
    ],
    "en": [
     "Utility bill analyzer",
@@ -2753,7 +2999,7 @@
    "nuovo": true,
    "it": [
     "Crea logo con IA",
-    "Descrivi la tua attivita' e ricevi proposte di logo in SVG e PNG."
+    "Descrivi la tua attività e ricevi proposte di logo in SVG e PNG."
    ],
    "en": [
     "AI logo maker",
@@ -3229,7 +3475,7 @@
    "nuovo": true,
    "it": [
     "Migliora e ingrandisci video",
-    "Piu' nitido e in alta risoluzione, anche per video vecchi."
+    "Più nitido e in alta risoluzione, anche per video vecchi."
    ],
    "en": [
     "AI video enhancer",
@@ -3280,7 +3526,7 @@
    "nuovo": true,
    "it": [
     "Unisci video",
-    "Metti insieme piu' clip in un unico video."
+    "Metti insieme più clip in un unico video."
    ],
    "en": [
     "Merge videos",
@@ -3676,6 +3922,2114 @@
    "en": [
     "AI dubbing",
     "Translates a video's speech and re-voices it in another language."
+   ]
+  },
+  {
+   "id": "riassumi-testo",
+   "cat": "txt-scrivi",
+   "ico": "✂️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Riassumi testo",
+    "Incolla un testo lungo e ricevi i punti chiave in pochi secondi."
+   ],
+   "en": [
+    "Summarize text",
+    "Paste a long text and get the key points in seconds."
+   ]
+  },
+  {
+   "id": "parafrasa-testo",
+   "cat": "txt-scrivi",
+   "ico": "🔄",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Parafrasa testo",
+    "Riscrivi un testo con parole diverse mantenendo il significato."
+   ],
+   "en": [
+    "Paraphrase text",
+    "Rewrite a text in different words and keep the meaning."
+   ]
+  },
+  {
+   "id": "correggi-grammatica",
+   "cat": "txt-scrivi",
+   "ico": "✅",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Correggi grammatica e ortografia",
+    "Trova e correggi errori in italiano, inglese e altre lingue."
+   ],
+   "en": [
+    "Grammar and spelling checker",
+    "Find and fix mistakes in Italian, English and more languages."
+   ]
+  },
+  {
+   "id": "traduci-testo",
+   "cat": "txt-scrivi",
+   "ico": "🌍",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Traduci testo",
+    "Traduzione naturale tra decine di lingue."
+   ],
+   "en": [
+    "Translate text",
+    "Natural translation between dozens of languages."
+   ]
+  },
+  {
+   "id": "scrivi-email-ia",
+   "cat": "txt-scrivi",
+   "ico": "📧",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Scrivi email con l'IA",
+    "Dimmi cosa vuoi comunicare e ricevi un'email pronta, formale o amichevole."
+   ],
+   "en": [
+    "AI email writer",
+    "Tell me what to say and get a ready email, formal or friendly."
+   ]
+  },
+  {
+   "id": "genera-titoli",
+   "cat": "txt-scrivi",
+   "ico": "🏷️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera titoli",
+    "Dieci titoli efficaci per articoli, video e annunci."
+   ],
+   "en": [
+    "Headline generator",
+    "Ten strong headlines for articles, videos and ads."
+   ]
+  },
+  {
+   "id": "espandi-testo",
+   "cat": "txt-scrivi",
+   "ico": "➕",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Espandi testo",
+    "Trasforma una bozza breve in un testo completo."
+   ],
+   "en": [
+    "Expand text",
+    "Turn a short draft into a full text."
+   ]
+  },
+  {
+   "id": "semplifica-testo",
+   "cat": "txt-scrivi",
+   "ico": "🧸",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Semplifica testo",
+    "Rendi chiaro un testo burocratico o tecnico."
+   ],
+   "en": [
+    "Simplify text",
+    "Make bureaucratic or technical text clear."
+   ]
+  },
+  {
+   "id": "cambia-tono-testo",
+   "cat": "txt-scrivi",
+   "ico": "🎚️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Cambia tono del testo",
+    "Da formale a informale, da duro a gentile."
+   ],
+   "en": [
+    "Change text tone",
+    "From formal to casual, from blunt to kind."
+   ]
+  },
+  {
+   "id": "testo-in-elenco",
+   "cat": "txt-scrivi",
+   "ico": "📋",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Testo in elenco puntato",
+    "Ordina appunti confusi in un elenco chiaro."
+   ],
+   "en": [
+    "Text to bullet list",
+    "Turn messy notes into a clear list."
+   ]
+  },
+  {
+   "id": "contatore-parole",
+   "cat": "txt-analizza",
+   "ico": "🔢",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Contatore di parole e caratteri",
+    "Parole, caratteri, frasi e tempo di lettura."
+   ],
+   "en": [
+    "Word and character counter",
+    "Words, characters, sentences and reading time."
+   ]
+  },
+  {
+   "id": "cambia-maiuscole",
+   "cat": "txt-analizza",
+   "ico": "🔠",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Maiuscole e minuscole",
+    "Converti in maiuscolo, minuscolo, titolo o frase."
+   ],
+   "en": [
+    "Change text case",
+    "Convert to upper, lower, title or sentence case."
+   ]
+  },
+  {
+   "id": "confronta-testi",
+   "cat": "txt-analizza",
+   "ico": "↔️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Confronta due testi",
+    "Evidenzia cosa è cambiato tra due versioni."
+   ],
+   "en": [
+    "Compare two texts",
+    "Highlight what changed between two versions."
+   ]
+  },
+  {
+   "id": "rimuovi-righe-duplicate",
+   "cat": "txt-analizza",
+   "ico": "🧹",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Rimuovi righe duplicate",
+    "Pulisci elenchi eliminando le righe ripetute."
+   ],
+   "en": [
+    "Remove duplicate lines",
+    "Clean lists by removing repeated lines."
+   ]
+  },
+  {
+   "id": "estrai-parole-chiave",
+   "cat": "txt-analizza",
+   "ico": "🔑",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Estrai parole chiave",
+    "Le parole più importanti di un testo, utili per la SEO."
+   ],
+   "en": [
+    "Keyword extractor",
+    "The most important words in a text, useful for SEO."
+   ]
+  },
+  {
+   "id": "leggibilita-testo",
+   "cat": "txt-analizza",
+   "ico": "📖",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Indice di leggibilità",
+    "Quanto è facile da leggere il tuo testo (indice Gulpease)."
+   ],
+   "en": [
+    "Readability score",
+    "How easy your text is to read."
+   ]
+  },
+  {
+   "id": "csv-in-excel",
+   "cat": "off-excel",
+   "ico": "📗",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "CSV in Excel",
+    "Apri un CSV come foglio Excel ordinato."
+   ],
+   "en": [
+    "CSV to Excel",
+    "Open a CSV as a tidy Excel sheet."
+   ]
+  },
+  {
+   "id": "excel-in-csv",
+   "cat": "off-excel",
+   "ico": "📄",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Excel in CSV",
+    "Esporta un foglio Excel in CSV pulito."
+   ],
+   "en": [
+    "Excel to CSV",
+    "Export an Excel sheet to a clean CSV."
+   ]
+  },
+  {
+   "id": "unisci-excel",
+   "cat": "off-excel",
+   "ico": "🧩",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Unisci file Excel",
+    "Metti insieme più fogli o file in uno solo."
+   ],
+   "en": [
+    "Merge Excel files",
+    "Combine several sheets or files into one."
+   ]
+  },
+  {
+   "id": "pulisci-excel",
+   "cat": "off-excel",
+   "ico": "🧼",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Pulisci Excel",
+    "Togli duplicati, spazi extra e righe vuote."
+   ],
+   "en": [
+    "Clean Excel data",
+    "Remove duplicates, extra spaces and blank rows."
+   ]
+  },
+  {
+   "id": "formula-excel-ia",
+   "cat": "off-excel",
+   "ico": "🧮",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Formula Excel con l'IA",
+    "Descrivi cosa vuoi calcolare e ricevi la formula."
+   ],
+   "en": [
+    "AI Excel formula",
+    "Describe what to calculate and get the formula."
+   ]
+  },
+  {
+   "id": "chatta-con-excel",
+   "cat": "off-excel",
+   "ico": "💬",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Chatta con il tuo Excel",
+    "Fai domande ai tuoi dati e ottieni risposte e tabelle."
+   ],
+   "en": [
+    "Chat with your Excel",
+    "Ask questions about your data and get answers and tables."
+   ]
+  },
+  {
+   "id": "grafico-da-dati",
+   "cat": "off-excel",
+   "ico": "📊",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Grafico dai tuoi dati",
+    "Carica un foglio e ricevi un grafico pronto."
+   ],
+   "en": [
+    "Chart from your data",
+    "Upload a sheet and get a ready chart."
+   ]
+  },
+  {
+   "id": "confronta-excel",
+   "cat": "off-excel",
+   "ico": "⚖️",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Confronta due Excel",
+    "Trova righe nuove, tolte e cambiate."
+   ],
+   "en": [
+    "Compare two Excel files",
+    "Find new, removed and changed rows."
+   ]
+  },
+  {
+   "id": "json-in-excel",
+   "cat": "off-excel",
+   "ico": "🔁",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "JSON in Excel",
+    "Da dati JSON a tabella Excel."
+   ],
+   "en": [
+    "JSON to Excel",
+    "From JSON data to an Excel table."
+   ]
+  },
+  {
+   "id": "excel-in-json",
+   "cat": "off-excel",
+   "ico": "🧾",
+   "input": "file",
+   "accept": ".xls,.xlsx,.csv",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Excel in JSON",
+    "Da foglio Excel a JSON per siti e app."
+   ],
+   "en": [
+    "Excel to JSON",
+    "From an Excel sheet to JSON for sites and apps."
+   ]
+  },
+  {
+   "id": "word-in-testo",
+   "cat": "off-word",
+   "ico": "📝",
+   "input": "file",
+   "accept": ".doc,.docx",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Word in testo semplice",
+    "Estrai solo il testo da un documento Word."
+   ],
+   "en": [
+    "Word to plain text",
+    "Extract just the text from a Word document."
+   ]
+  },
+  {
+   "id": "word-in-markdown",
+   "cat": "off-word",
+   "ico": "Ⓜ️",
+   "input": "file",
+   "accept": ".doc,.docx",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Word in Markdown",
+    "Converti un .docx in Markdown pulito."
+   ],
+   "en": [
+    "Word to Markdown",
+    "Convert a .docx into clean Markdown."
+   ]
+  },
+  {
+   "id": "word-in-html",
+   "cat": "off-word",
+   "ico": "🌐",
+   "input": "file",
+   "accept": ".doc,.docx",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Word in HTML",
+    "Da documento Word a pagina web."
+   ],
+   "en": [
+    "Word to HTML",
+    "From a Word document to a web page."
+   ]
+  },
+  {
+   "id": "unisci-word",
+   "cat": "off-word",
+   "ico": "📎",
+   "input": "file",
+   "accept": ".doc,.docx",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Unisci documenti Word",
+    "Un solo .docx da più file."
+   ],
+   "en": [
+    "Merge Word documents",
+    "One .docx from several files."
+   ]
+  },
+  {
+   "id": "riassumi-word",
+   "cat": "off-word",
+   "ico": "🗒️",
+   "input": "file",
+   "accept": ".doc,.docx",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Riassumi documento Word",
+    "Punti chiave di un file Word."
+   ],
+   "en": [
+    "Summarize Word document",
+    "Key points of a Word file."
+   ]
+  },
+  {
+   "id": "correggi-word",
+   "cat": "off-word",
+   "ico": "🖋️",
+   "input": "file",
+   "accept": ".doc,.docx",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Correggi documento Word",
+    "Errori e frasi migliorabili, con modifiche tracciate."
+   ],
+   "en": [
+    "Proofread Word document",
+    "Mistakes and weak sentences, with tracked changes."
+   ]
+  },
+  {
+   "id": "formatta-json",
+   "cat": "dev-formato",
+   "ico": "🧱",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Formatta e valida JSON",
+    "Rendi leggibile un JSON e trova gli errori."
+   ],
+   "en": [
+    "JSON formatter and validator",
+    "Make JSON readable and find errors."
+   ]
+  },
+  {
+   "id": "json-in-csv",
+   "cat": "dev-formato",
+   "ico": "🔀",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "JSON in CSV",
+    "Converti un array JSON in tabella CSV."
+   ],
+   "en": [
+    "JSON to CSV",
+    "Convert a JSON array to a CSV table."
+   ]
+  },
+  {
+   "id": "formatta-sql",
+   "cat": "dev-formato",
+   "ico": "🗄️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Formatta SQL",
+    "Query SQL ordinate e indentate."
+   ],
+   "en": [
+    "SQL formatter",
+    "Tidy, indented SQL queries."
+   ]
+  },
+  {
+   "id": "minifica-codice",
+   "cat": "dev-formato",
+   "ico": "📦",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Minifica HTML, CSS e JS",
+    "Meno peso per il tuo sito."
+   ],
+   "en": [
+    "Minify HTML, CSS and JS",
+    "Lighter files for your site."
+   ]
+  },
+  {
+   "id": "anteprima-markdown",
+   "cat": "dev-formato",
+   "ico": "👁️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Anteprima Markdown",
+    "Scrivi in Markdown e vedi subito il risultato."
+   ],
+   "en": [
+    "Markdown preview",
+    "Write Markdown and see the result instantly."
+   ]
+  },
+  {
+   "id": "html-in-markdown",
+   "cat": "dev-formato",
+   "ico": "↩️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "HTML in Markdown",
+    "Da codice HTML a Markdown."
+   ],
+   "en": [
+    "HTML to Markdown",
+    "From HTML code to Markdown."
+   ]
+  },
+  {
+   "id": "confronta-codice",
+   "cat": "dev-formato",
+   "ico": "🆚",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Confronta codice (diff)",
+    "Differenze riga per riga tra due versioni."
+   ],
+   "en": [
+    "Code diff",
+    "Line-by-line differences between two versions."
+   ]
+  },
+  {
+   "id": "base64-codifica",
+   "cat": "dev-codici",
+   "ico": "🔐",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Base64 codifica e decodifica",
+    "Testo e file da e verso Base64."
+   ],
+   "en": [
+    "Base64 encode and decode",
+    "Text and files to and from Base64."
+   ]
+  },
+  {
+   "id": "url-codifica",
+   "cat": "dev-codici",
+   "ico": "🔗",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Codifica URL",
+    "Codifica e decodifica indirizzi web."
+   ],
+   "en": [
+    "URL encoder and decoder",
+    "Encode and decode web addresses."
+   ]
+  },
+  {
+   "id": "decodifica-jwt",
+   "cat": "dev-codici",
+   "ico": "🪪",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Decodifica JWT",
+    "Leggi header e contenuto di un token JWT."
+   ],
+   "en": [
+    "JWT decoder",
+    "Read the header and payload of a JWT token."
+   ]
+  },
+  {
+   "id": "genera-hash",
+   "cat": "dev-codici",
+   "ico": "#️⃣",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera hash",
+    "MD5, SHA-1 e SHA-256 di un testo."
+   ],
+   "en": [
+    "Hash generator",
+    "MD5, SHA-1 and SHA-256 of a text."
+   ]
+  },
+  {
+   "id": "genera-uuid",
+   "cat": "dev-codici",
+   "ico": "🆔",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera UUID",
+    "Identificativi univoci pronti da copiare."
+   ],
+   "en": [
+    "UUID generator",
+    "Unique identifiers ready to copy."
+   ]
+  },
+  {
+   "id": "timestamp-unix",
+   "cat": "dev-codici",
+   "ico": "⏱️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Timestamp Unix in data",
+    "Da timestamp a data leggibile e viceversa."
+   ],
+   "en": [
+    "Unix timestamp converter",
+    "From timestamp to readable date and back."
+   ]
+  },
+  {
+   "id": "tester-regex",
+   "cat": "dev-codici",
+   "ico": "🎯",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Tester di espressioni regolari",
+    "Prova una regex su un testo e vedi le corrispondenze."
+   ],
+   "en": [
+    "Regex tester",
+    "Try a regex on a text and see the matches."
+   ]
+  },
+  {
+   "id": "cron-spiegato",
+   "cat": "dev-codici",
+   "ico": "🕒",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Spiega espressione cron",
+    "Cosa significa quel cron, in italiano semplice."
+   ],
+   "en": [
+    "Cron explainer",
+    "What that cron means, in plain words."
+   ]
+  },
+  {
+   "id": "genera-regex-ia",
+   "cat": "dev-ia",
+   "ico": "🪄",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera regex con l'IA",
+    "Descrivi cosa cercare e ricevi la regex."
+   ],
+   "en": [
+    "AI regex generator",
+    "Describe what to find and get the regex."
+   ]
+  },
+  {
+   "id": "genera-sql-ia",
+   "cat": "dev-ia",
+   "ico": "🧠",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera SQL con l'IA",
+    "Dalla domanda in italiano alla query SQL."
+   ],
+   "en": [
+    "AI SQL generator",
+    "From a plain question to an SQL query."
+   ]
+  },
+  {
+   "id": "spiega-codice-ia",
+   "cat": "dev-ia",
+   "ico": "💡",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Spiega codice con l'IA",
+    "Incolla del codice e capisci cosa fa riga per riga."
+   ],
+   "en": [
+    "AI code explainer",
+    "Paste code and understand what it does line by line."
+   ]
+  },
+  {
+   "id": "converti-codice-ia",
+   "cat": "dev-ia",
+   "ico": "🔧",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Converti codice tra linguaggi",
+    "Da PHP a Python, da JavaScript a TypeScript e altro."
+   ],
+   "en": [
+    "Convert code between languages",
+    "From PHP to Python, JavaScript to TypeScript and more."
+   ]
+  },
+  {
+   "id": "genera-qr-code",
+   "cat": "dev-web",
+   "ico": "▦",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera QR code",
+    "QR per link, Wi-Fi, testo e contatti, in PNG e SVG."
+   ],
+   "en": [
+    "QR code generator",
+    "QR for links, Wi-Fi, text and contacts, as PNG and SVG."
+   ]
+  },
+  {
+   "id": "genera-robots-txt",
+   "cat": "dev-web",
+   "ico": "🤖",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera robots.txt",
+    "Il file giusto per i motori di ricerca."
+   ],
+   "en": [
+    "robots.txt generator",
+    "The right file for search engines."
+   ]
+  },
+  {
+   "id": "genera-sitemap",
+   "cat": "dev-web",
+   "ico": "🗺️",
+   "input": "url",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera sitemap XML",
+    "Dal link del tuo sito alla sitemap pronta."
+   ],
+   "en": [
+    "XML sitemap generator",
+    "From your site link to a ready sitemap."
+   ]
+  },
+  {
+   "id": "converti-colori",
+   "cat": "dev-web",
+   "ico": "🎨",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Converti colori HEX, RGB, HSL",
+    "E trova le tonalita' abbinate."
+   ],
+   "en": [
+    "Color converter",
+    "Convert HEX, RGB, HSL and find matching shades."
+   ]
+  },
+  {
+   "id": "calcolo-iva",
+   "cat": "biz-fisco",
+   "ico": "➗",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola IVA",
+    "Aggiungi l'IVA a un importo (22%, 10%, 5%, 4%)."
+   ],
+   "en": [
+    "VAT calculator",
+    "Add VAT to an amount."
+   ]
+  },
+  {
+   "id": "scorporo-iva",
+   "cat": "biz-fisco",
+   "ico": "➖",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Scorporo IVA",
+    "Dal totale all'imponibile e all'IVA."
+   ],
+   "en": [
+    "VAT breakdown",
+    "From the total to net amount and VAT."
+   ]
+  },
+  {
+   "id": "calcola-codice-fiscale",
+   "cat": "biz-fisco",
+   "ico": "🪪",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola codice fiscale",
+    "Dai tuoi dati al codice fiscale."
+   ],
+   "en": [
+    "Italian tax code calculator",
+    "From your details to the codice fiscale."
+   ]
+  },
+  {
+   "id": "verifica-partita-iva",
+   "cat": "biz-fisco",
+   "ico": "🔎",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Verifica partita IVA",
+    "Controlla che una partita IVA sia valida."
+   ],
+   "en": [
+    "VAT number checker",
+    "Check that a VAT number is valid."
+   ]
+  },
+  {
+   "id": "verifica-iban",
+   "cat": "biz-fisco",
+   "ico": "🏦",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Verifica IBAN",
+    "Controlla la correttezza di un IBAN."
+   ],
+   "en": [
+    "IBAN checker",
+    "Check that an IBAN is correct."
+   ]
+  },
+  {
+   "id": "stipendio-netto-lordo",
+   "cat": "biz-fisco",
+   "ico": "💶",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Stipendio netto e lordo",
+    "Stima il netto in busta paga dal lordo annuo."
+   ],
+   "en": [
+    "Net and gross salary",
+    "Estimate net pay from annual gross."
+   ]
+  },
+  {
+   "id": "calcola-tfr",
+   "cat": "biz-fisco",
+   "ico": "🧳",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola TFR",
+    "Stima del trattamento di fine rapporto."
+   ],
+   "en": [
+    "Severance (TFR) calculator",
+    "Estimate of Italian severance pay."
+   ]
+  },
+  {
+   "id": "interessi-legali",
+   "cat": "biz-fisco",
+   "ico": "📆",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola interessi legali",
+    "Interessi su un importo tra due date."
+   ],
+   "en": [
+    "Legal interest calculator",
+    "Interest on an amount between two dates."
+   ]
+  },
+  {
+   "id": "calcola-margine",
+   "cat": "biz-fisco",
+   "ico": "📐",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Margine e ricarico",
+    "Prezzo di vendita, margine e ricarico."
+   ],
+   "en": [
+    "Margin and markup",
+    "Selling price, margin and markup."
+   ]
+  },
+  {
+   "id": "calcola-roi",
+   "cat": "biz-fisco",
+   "ico": "📈",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola ROI",
+    "Il ritorno del tuo investimento o della tua pubblicità."
+   ],
+   "en": [
+    "ROI calculator",
+    "The return of your investment or ads."
+   ]
+  },
+  {
+   "id": "genera-preventivo",
+   "cat": "biz-doc",
+   "ico": "🧾",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera preventivo",
+    "Un preventivo ordinato in PDF, con il tuo logo."
+   ],
+   "en": [
+    "Quote generator",
+    "A tidy quote as PDF with your logo."
+   ]
+  },
+  {
+   "id": "genera-ricevuta",
+   "cat": "biz-doc",
+   "ico": "🧷",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera ricevuta",
+    "Ricevute semplici per prestazioni e vendite."
+   ],
+   "en": [
+    "Receipt generator",
+    "Simple receipts for services and sales."
+   ]
+  },
+  {
+   "id": "genera-privacy-policy",
+   "cat": "biz-doc",
+   "ico": "🛡️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera privacy policy",
+    "Modello di informativa privacy per il tuo sito."
+   ],
+   "en": [
+    "Privacy policy generator",
+    "Privacy notice template for your site."
+   ]
+  },
+  {
+   "id": "genera-cookie-policy",
+   "cat": "biz-doc",
+   "ico": "🍪",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera cookie policy",
+    "Cookie policy da adattare al tuo sito."
+   ],
+   "en": [
+    "Cookie policy generator",
+    "Cookie policy to adapt to your site."
+   ]
+  },
+  {
+   "id": "lettera-di-diffida",
+   "cat": "biz-doc",
+   "ico": "✉️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Lettera di diffida",
+    "Modello da personalizzare. Non sostituisce un legale."
+   ],
+   "en": [
+    "Cease-and-desist letter",
+    "Template to customize. Does not replace a lawyer."
+   ]
+  },
+  {
+   "id": "contratto-affitto-modello",
+   "cat": "biz-doc",
+   "ico": "🏠",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Modello contratto di affitto",
+    "Bozza da personalizzare per locazioni."
+   ],
+   "en": [
+    "Rental contract template",
+    "Draft to customize for leases."
+   ]
+  },
+  {
+   "id": "lettera-dimissioni",
+   "cat": "biz-doc",
+   "ico": "🚪",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Lettera di dimissioni",
+    "Modello pronto da compilare."
+   ],
+   "en": [
+    "Resignation letter",
+    "A ready template to fill in."
+   ]
+  },
+  {
+   "id": "business-plan-ia",
+   "cat": "biz-doc",
+   "ico": "📘",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Business plan con l'IA",
+    "Dalla tua idea a un piano strutturato."
+   ],
+   "en": [
+    "AI business plan",
+    "From your idea to a structured plan."
+   ]
+  },
+  {
+   "id": "nome-attivita-ia",
+   "cat": "biz-doc",
+   "ico": "💭",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Idee per il nome dell'attività",
+    "Nomi e slogan per la tua impresa."
+   ],
+   "en": [
+    "Business name ideas",
+    "Names and slogans for your company."
+   ]
+  },
+  {
+   "id": "genera-meta-tag",
+   "cat": "mkt-seo",
+   "ico": "🏷️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera meta tag SEO",
+    "Title e description ottimizzati per Google."
+   ],
+   "en": [
+    "SEO meta tag generator",
+    "Optimized title and description for Google."
+   ]
+  },
+  {
+   "id": "analizza-seo-pagina",
+   "cat": "mkt-seo",
+   "ico": "🔍",
+   "input": "url",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Analizza SEO di una pagina",
+    "Incolla il link e ricevi cosa migliorare."
+   ],
+   "en": [
+    "Page SEO checker",
+    "Paste the link and see what to improve."
+   ]
+  },
+  {
+   "id": "anteprima-google",
+   "cat": "mkt-seo",
+   "ico": "🪟",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Anteprima risultato Google",
+    "Come appare il tuo titolo nei risultati."
+   ],
+   "en": [
+    "Google snippet preview",
+    "How your title looks in search results."
+   ]
+  },
+  {
+   "id": "genera-schema-faq",
+   "cat": "mkt-seo",
+   "ico": "❓",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera dati strutturati FAQ",
+    "Schema FAQ pronto da incollare nel sito."
+   ],
+   "en": [
+    "FAQ schema generator",
+    "FAQ schema ready to paste on your site."
+   ]
+  },
+  {
+   "id": "genera-utm",
+   "cat": "mkt-seo",
+   "ico": "🔗",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Costruttore di link UTM",
+    "Link tracciabili per le tue campagne."
+   ],
+   "en": [
+    "UTM link builder",
+    "Trackable links for your campaigns."
+   ]
+  },
+  {
+   "id": "idee-articoli-blog",
+   "cat": "mkt-seo",
+   "ico": "💡",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Idee per articoli di blog",
+    "Argomenti che la gente cerca davvero."
+   ],
+   "en": [
+    "Blog post ideas",
+    "Topics people actually search for."
+   ]
+  },
+  {
+   "id": "descrizione-prodotto-ia",
+   "cat": "mkt-seo",
+   "ico": "🛒",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Descrizione prodotto con l'IA",
+    "Schede prodotto efficaci per il tuo ecommerce."
+   ],
+   "en": [
+    "AI product description",
+    "Strong product pages for your store."
+   ]
+  },
+  {
+   "id": "email-marketing-ia",
+   "cat": "mkt-seo",
+   "ico": "📬",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Email marketing con l'IA",
+    "Newsletter e sequenze di email che convertono."
+   ],
+   "en": [
+    "AI marketing email",
+    "Newsletters and email sequences that convert."
+   ]
+  },
+  {
+   "id": "hashtag-ia",
+   "cat": "mkt-social",
+   "ico": "#️⃣",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera hashtag",
+    "Gli hashtag giusti per ogni post."
+   ],
+   "en": [
+    "Hashtag generator",
+    "The right hashtags for every post."
+   ]
+  },
+  {
+   "id": "bio-instagram",
+   "cat": "mkt-social",
+   "ico": "📸",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Bio Instagram e TikTok",
+    "Bio brevi e memorabili."
+   ],
+   "en": [
+    "Instagram and TikTok bio",
+    "Short, memorable bios."
+   ]
+  },
+  {
+   "id": "post-linkedin-ia",
+   "cat": "mkt-social",
+   "ico": "💼",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Post LinkedIn con l'IA",
+    "Da un'idea a un post che si legge."
+   ],
+   "en": [
+    "AI LinkedIn post",
+    "From an idea to a post people read."
+   ]
+  },
+  {
+   "id": "titoli-youtube",
+   "cat": "mkt-social",
+   "ico": "▶️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Titoli e descrizioni YouTube",
+    "Titoli cliccabili e descrizioni ottimizzate."
+   ],
+   "en": [
+    "YouTube titles and descriptions",
+    "Clickable titles and optimized descriptions."
+   ]
+  },
+  {
+   "id": "script-video-breve",
+   "cat": "mkt-social",
+   "ico": "🎬",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Script per video brevi",
+    "Copioni per Reel, Shorts e TikTok."
+   ],
+   "en": [
+    "Short video script",
+    "Scripts for Reels, Shorts and TikTok."
+   ]
+  },
+  {
+   "id": "piano-editoriale-ia",
+   "cat": "mkt-social",
+   "ico": "🗓️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Piano editoriale social",
+    "Un mese di contenuti organizzati."
+   ],
+   "en": [
+    "Social content calendar",
+    "A month of organized content."
+   ]
+  },
+  {
+   "id": "rispondi-recensioni-ia",
+   "cat": "mkt-social",
+   "ico": "⭐",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Rispondi alle recensioni",
+    "Risposte professionali a recensioni positive e negative."
+   ],
+   "en": [
+    "Reply to reviews",
+    "Professional replies to positive and negative reviews."
+   ]
+  },
+  {
+   "id": "genera-slogan",
+   "cat": "mkt-social",
+   "ico": "📣",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera slogan",
+    "Frasi brevi e memorabili per il tuo brand."
+   ],
+   "en": [
+    "Slogan generator",
+    "Short, memorable lines for your brand."
+   ]
+  },
+  {
+   "id": "quiz-da-testo",
+   "cat": "stu-impara",
+   "ico": "❔",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Quiz dal testo",
+    "Domande a scelta multipla dai tuoi appunti."
+   ],
+   "en": [
+    "Quiz from text",
+    "Multiple-choice questions from your notes."
+   ]
+  },
+  {
+   "id": "flashcard-da-testo",
+   "cat": "stu-impara",
+   "ico": "🗂️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Flashcard dal testo",
+    "Carte di ripasso dai tuoi appunti."
+   ],
+   "en": [
+    "Flashcards from text",
+    "Review cards from your notes."
+   ]
+  },
+  {
+   "id": "schema-da-testo",
+   "cat": "stu-impara",
+   "ico": "🌿",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Schema e mappa dal testo",
+    "Un capitolo diventa uno schema."
+   ],
+   "en": [
+    "Outline from text",
+    "A chapter becomes an outline."
+   ]
+  },
+  {
+   "id": "spiega-semplice",
+   "cat": "stu-impara",
+   "ico": "👶",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Spiegami come se avessi 10 anni",
+    "Concetti difficili in parole semplici."
+   ],
+   "en": [
+    "Explain it simply",
+    "Hard concepts in simple words."
+   ]
+  },
+  {
+   "id": "domande-orale",
+   "cat": "stu-impara",
+   "ico": "🎤",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Domande per l'orale",
+    "Simula l'interrogazione o l'esame."
+   ],
+   "en": [
+    "Oral exam practice",
+    "Practice your oral exam."
+   ]
+  },
+  {
+   "id": "risolvi-passo-passo",
+   "cat": "stu-impara",
+   "ico": "🧠",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Risolvi problemi passo passo",
+    "Matematica e fisica spiegate per capire."
+   ],
+   "en": [
+    "Step-by-step solver",
+    "Math and physics explained so you understand."
+   ]
+  },
+  {
+   "id": "genera-bibliografia",
+   "cat": "stu-scrivi",
+   "ico": "📚",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera bibliografia",
+    "Citazioni in APA, MLA, Harvard e Chicago."
+   ],
+   "en": [
+    "Bibliography generator",
+    "Citations in APA, MLA, Harvard and Chicago."
+   ]
+  },
+  {
+   "id": "indice-tesi-ia",
+   "cat": "stu-scrivi",
+   "ico": "🎓",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Indice per la tesi",
+    "Una struttura per capitoli dal tuo argomento."
+   ],
+   "en": [
+    "Thesis outline",
+    "A chapter structure from your topic."
+   ]
+  },
+  {
+   "id": "calcola-media-voti",
+   "cat": "stu-scrivi",
+   "ico": "🧮",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola la media dei voti",
+    "Media aritmetica e ponderata, e voto di laurea."
+   ],
+   "en": [
+    "Grade average calculator",
+    "Arithmetic and weighted average, and final grade."
+   ]
+  },
+  {
+   "id": "timer-pomodoro",
+   "cat": "stu-scrivi",
+   "ico": "🍅",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Timer Pomodoro",
+    "Studio a blocchi con pause."
+   ],
+   "en": [
+    "Pomodoro timer",
+    "Study in blocks with breaks."
+   ]
+  },
+  {
+   "id": "genera-password",
+   "cat": "prv-password",
+   "ico": "🔑",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera password sicura",
+    "Password lunghe e casuali, create nel tuo browser."
+   ],
+   "en": [
+    "Secure password generator",
+    "Long random passwords created in your browser."
+   ]
+  },
+  {
+   "id": "controlla-password",
+   "cat": "prv-password",
+   "ico": "💪",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Controlla la forza della password",
+    "Quanto ci metterebbe un attacco a indovinarla."
+   ],
+   "en": [
+    "Password strength checker",
+    "How long an attack would take to guess it."
+   ]
+  },
+  {
+   "id": "genera-frase-password",
+   "cat": "prv-password",
+   "ico": "💬",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera frase password",
+    "Frasi facili da ricordare e difficili da scoprire."
+   ],
+   "en": [
+    "Passphrase generator",
+    "Easy to remember, hard to guess."
+   ]
+  },
+  {
+   "id": "cifra-testo",
+   "cat": "prv-password",
+   "ico": "🔒",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Cifra e decifra testo",
+    "Proteggi un messaggio con una password."
+   ],
+   "en": [
+    "Encrypt and decrypt text",
+    "Protect a message with a password."
+   ]
+  },
+  {
+   "id": "controlla-email-violata",
+   "cat": "prv-dati",
+   "ico": "📮",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "La tua email è stata violata?",
+    "Controlla se compare in fughe di dati note."
+   ],
+   "en": [
+    "Has your email been breached?",
+    "Check if it appears in known data leaks."
+   ]
+  },
+  {
+   "id": "verifica-email-phishing",
+   "cat": "prv-dati",
+   "ico": "🎣",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Email sospetta o phishing?",
+    "Incolla l'email e scopri i segnali di truffa."
+   ],
+   "en": [
+    "Phishing email check",
+    "Paste the email and spot the scam signs."
+   ]
+  },
+  {
+   "id": "verifica-sms-truffa",
+   "cat": "prv-dati",
+   "ico": "📱",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "SMS o messaggio truffa?",
+    "Banca, corriere o Poste: è vero o falso?"
+   ],
+   "en": [
+    "Scam message check",
+    "Bank, courier or post office: real or fake?"
+   ]
+  },
+  {
+   "id": "verifica-link-sospetto",
+   "cat": "prv-dati",
+   "ico": "🚨",
+   "input": "url",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Link sospetto?",
+    "Controlla un indirizzo prima di cliccare."
+   ],
+   "en": [
+    "Suspicious link check",
+    "Check an address before you click."
+   ]
+  },
+  {
+   "id": "genera-hash-file",
+   "cat": "prv-dati",
+   "ico": "🧬",
+   "input": "file",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Impronta digitale di un file",
+    "Verifica che un file non sia stato alterato."
+   ],
+   "en": [
+    "File checksum",
+    "Check that a file has not been altered."
+   ]
+  },
+  {
+   "id": "convertitore-unita",
+   "cat": "cal-conv",
+   "ico": "📏",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Convertitore di unità",
+    "Lunghezze, pesi, temperature, volumi e altro."
+   ],
+   "en": [
+    "Unit converter",
+    "Lengths, weights, temperatures, volumes and more."
+   ]
+  },
+  {
+   "id": "calcola-percentuale",
+   "cat": "cal-conv",
+   "ico": "％",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcolatore di percentuali",
+    "Percentuali, sconti e variazioni."
+   ],
+   "en": [
+    "Percentage calculator",
+    "Percentages, discounts and changes."
+   ]
+  },
+  {
+   "id": "calcola-sconto",
+   "cat": "cal-conv",
+   "ico": "🏷️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola sconto",
+    "Prezzo finale dopo uno o più sconti."
+   ],
+   "en": [
+    "Discount calculator",
+    "Final price after one or more discounts."
+   ]
+  },
+  {
+   "id": "numeri-romani",
+   "cat": "cal-conv",
+   "ico": "🏛️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Numeri romani",
+    "Da numero a romano e viceversa."
+   ],
+   "en": [
+    "Roman numerals",
+    "From number to Roman and back."
+   ]
+  },
+  {
+   "id": "misure-cucina",
+   "cat": "cal-conv",
+   "ico": "🥄",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Misure di cucina",
+    "Grammi, tazze, cucchiai e millilitri."
+   ],
+   "en": [
+    "Cooking measures",
+    "Grams, cups, spoons and milliliters."
+   ]
+  },
+  {
+   "id": "calcola-mutuo",
+   "cat": "cal-conv",
+   "ico": "🏡",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola rata del mutuo",
+    "Rata, interessi e totale da restituire."
+   ],
+   "en": [
+    "Mortgage calculator",
+    "Payment, interest and total to repay."
+   ]
+  },
+  {
+   "id": "calcola-prestito",
+   "cat": "cal-conv",
+   "ico": "💳",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola rata del prestito",
+    "Rata e costo totale di un finanziamento."
+   ],
+   "en": [
+    "Loan calculator",
+    "Payment and total cost of a loan."
+   ]
+  },
+  {
+   "id": "calcola-bmi",
+   "cat": "cal-conv",
+   "ico": "⚖️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola BMI",
+    "Indice di massa corporea. Indicativo, non è un parere medico."
+   ],
+   "en": [
+    "BMI calculator",
+    "Body mass index. Indicative, not medical advice."
+   ]
+  },
+  {
+   "id": "calcola-carburante",
+   "cat": "cal-conv",
+   "ico": "⛽",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Consumo e costo carburante",
+    "Quanto spendi per un viaggio."
+   ],
+   "en": [
+    "Fuel cost calculator",
+    "How much a trip costs."
+   ]
+  },
+  {
+   "id": "fuso-orario",
+   "cat": "cal-data",
+   "ico": "🕰️",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Convertitore fuso orario",
+    "Che ore sono lì? Orari tra città diverse."
+   ],
+   "en": [
+    "Time zone converter",
+    "What time is it there? Times across cities."
+   ]
+  },
+  {
+   "id": "calcola-eta",
+   "cat": "cal-data",
+   "ico": "🎂",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Calcola l'età",
+    "Anni, mesi e giorni da una data di nascita."
+   ],
+   "en": [
+    "Age calculator",
+    "Years, months and days from a birth date."
+   ]
+  },
+  {
+   "id": "differenza-date",
+   "cat": "cal-data",
+   "ico": "📅",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Differenza tra due date",
+    "Giorni, settimane e mesi tra due date."
+   ],
+   "en": [
+    "Date difference",
+    "Days, weeks and months between two dates."
+   ]
+  },
+  {
+   "id": "aggiungi-giorni",
+   "cat": "cal-data",
+   "ico": "➕",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Aggiungi giorni a una data",
+    "Scadenze e termini in un attimo."
+   ],
+   "en": [
+    "Add days to a date",
+    "Deadlines and terms in a moment."
+   ]
+  },
+  {
+   "id": "conto-alla-rovescia",
+   "cat": "cal-data",
+   "ico": "⏳",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Giorni mancanti a un evento",
+    "Quanto manca a ferie, esami o compleanni."
+   ],
+   "en": [
+    "Days until an event",
+    "How long until holidays, exams or birthdays."
+   ]
+  },
+  {
+   "id": "numero-casuale",
+   "cat": "cal-data",
+   "ico": "🎲",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Numero casuale e dado",
+    "Estrazioni, dadi e scelte a caso."
+   ],
+   "en": [
+    "Random number and dice",
+    "Draws, dice and random picks."
    ]
   }
  ]

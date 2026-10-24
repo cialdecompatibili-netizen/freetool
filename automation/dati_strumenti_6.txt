@@ -1,0 +1,134 @@
+# id|categoria|icona|tipo|titolo IT|descrizione IT|title EN|description EN
+# tipo: t=testo da incollare, u=link, f=file qualsiasi tra x(excel/csv) w(word) p(pdf) i(immagini) a(audio) v(video); m in fondo = piu' file
+# ---------------- TESTO E SCRITTURA ----------------
+riassumi-testo|txt-scrivi|✂️|t|Riassumi testo|Incolla un testo lungo e ricevi i punti chiave in pochi secondi.|Summarize text|Paste a long text and get the key points in seconds.
+parafrasa-testo|txt-scrivi|🔄|t|Parafrasa testo|Riscrivi un testo con parole diverse mantenendo il significato.|Paraphrase text|Rewrite a text in different words and keep the meaning.
+correggi-grammatica|txt-scrivi|✅|t|Correggi grammatica e ortografia|Trova e correggi errori in italiano, inglese e altre lingue.|Grammar and spelling checker|Find and fix mistakes in Italian, English and more languages.
+traduci-testo|txt-scrivi|🌍|t|Traduci testo|Traduzione naturale tra decine di lingue.|Translate text|Natural translation between dozens of languages.
+scrivi-email-ia|txt-scrivi|📧|t|Scrivi email con l'IA|Dimmi cosa vuoi comunicare e ricevi un'email pronta, formale o amichevole.|AI email writer|Tell me what to say and get a ready email, formal or friendly.
+genera-titoli|txt-scrivi|🏷️|t|Genera titoli|Dieci titoli efficaci per articoli, video e annunci.|Headline generator|Ten strong headlines for articles, videos and ads.
+espandi-testo|txt-scrivi|➕|t|Espandi testo|Trasforma una bozza breve in un testo completo.|Expand text|Turn a short draft into a full text.
+semplifica-testo|txt-scrivi|🧸|t|Semplifica testo|Rendi chiaro un testo burocratico o tecnico.|Simplify text|Make bureaucratic or technical text clear.
+cambia-tono-testo|txt-scrivi|🎚️|t|Cambia tono del testo|Da formale a informale, da duro a gentile.|Change text tone|From formal to casual, from blunt to kind.
+testo-in-elenco|txt-scrivi|📋|t|Testo in elenco puntato|Ordina appunti confusi in un elenco chiaro.|Text to bullet list|Turn messy notes into a clear list.
+contatore-parole|txt-analizza|🔢|t|Contatore di parole e caratteri|Parole, caratteri, frasi e tempo di lettura.|Word and character counter|Words, characters, sentences and reading time.
+cambia-maiuscole|txt-analizza|🔠|t|Maiuscole e minuscole|Converti in maiuscolo, minuscolo, titolo o frase.|Change text case|Convert to upper, lower, title or sentence case.
+confronta-testi|txt-analizza|↔️|t|Confronta due testi|Evidenzia cosa e' cambiato tra due versioni.|Compare two texts|Highlight what changed between two versions.
+rimuovi-righe-duplicate|txt-analizza|🧹|t|Rimuovi righe duplicate|Pulisci elenchi eliminando le righe ripetute.|Remove duplicate lines|Clean lists by removing repeated lines.
+estrai-parole-chiave|txt-analizza|🔑|t|Estrai parole chiave|Le parole piu' importanti di un testo, utili per la SEO.|Keyword extractor|The most important words in a text, useful for SEO.
+leggibilita-testo|txt-analizza|📖|t|Indice di leggibilita'|Quanto e' facile da leggere il tuo testo (indice Gulpease).|Readability score|How easy your text is to read.
+# ---------------- WORD, EXCEL E DATI ----------------
+csv-in-excel|off-excel|📗|fx|CSV in Excel|Apri un CSV come foglio Excel ordinato.|CSV to Excel|Open a CSV as a tidy Excel sheet.
+excel-in-csv|off-excel|📄|fx|Excel in CSV|Esporta un foglio Excel in CSV pulito.|Excel to CSV|Export an Excel sheet to a clean CSV.
+unisci-excel|off-excel|🧩|fxm|Unisci file Excel|Metti insieme piu' fogli o file in uno solo.|Merge Excel files|Combine several sheets or files into one.
+pulisci-excel|off-excel|🧼|fx|Pulisci Excel|Togli duplicati, spazi extra e righe vuote.|Clean Excel data|Remove duplicates, extra spaces and blank rows.
+formula-excel-ia|off-excel|🧮|t|Formula Excel con l'IA|Descrivi cosa vuoi calcolare e ricevi la formula.|AI Excel formula|Describe what to calculate and get the formula.
+chatta-con-excel|off-excel|💬|fx|Chatta con il tuo Excel|Fai domande ai tuoi dati e ottieni risposte e tabelle.|Chat with your Excel|Ask questions about your data and get answers and tables.
+grafico-da-dati|off-excel|📊|fx|Grafico dai tuoi dati|Carica un foglio e ricevi un grafico pronto.|Chart from your data|Upload a sheet and get a ready chart.
+confronta-excel|off-excel|⚖️|fxm|Confronta due Excel|Trova righe nuove, tolte e cambiate.|Compare two Excel files|Find new, removed and changed rows.
+json-in-excel|off-excel|🔁|t|JSON in Excel|Da dati JSON a tabella Excel.|JSON to Excel|From JSON data to an Excel table.
+excel-in-json|off-excel|🧾|fx|Excel in JSON|Da foglio Excel a JSON per siti e app.|Excel to JSON|From an Excel sheet to JSON for sites and apps.
+word-in-testo|off-word|📝|fw|Word in testo semplice|Estrai solo il testo da un documento Word.|Word to plain text|Extract just the text from a Word document.
+word-in-markdown|off-word|Ⓜ️|fw|Word in Markdown|Converti un .docx in Markdown pulito.|Word to Markdown|Convert a .docx into clean Markdown.
+word-in-html|off-word|🌐|fw|Word in HTML|Da documento Word a pagina web.|Word to HTML|From a Word document to a web page.
+unisci-word|off-word|📎|fwm|Unisci documenti Word|Un solo .docx da piu' file.|Merge Word documents|One .docx from several files.
+riassumi-word|off-word|🗒️|fw|Riassumi documento Word|Punti chiave di un file Word.|Summarize Word document|Key points of a Word file.
+correggi-word|off-word|🖋️|fw|Correggi documento Word|Errori e frasi migliorabili, con modifiche tracciate.|Proofread Word document|Mistakes and weak sentences, with tracked changes.
+# ---------------- SVILUPPATORI ----------------
+formatta-json|dev-formato|🧱|t|Formatta e valida JSON|Rendi leggibile un JSON e trova gli errori.|JSON formatter and validator|Make JSON readable and find errors.
+json-in-csv|dev-formato|🔀|t|JSON in CSV|Converti un array JSON in tabella CSV.|JSON to CSV|Convert a JSON array to a CSV table.
+formatta-sql|dev-formato|🗄️|t|Formatta SQL|Query SQL ordinate e indentate.|SQL formatter|Tidy, indented SQL queries.
+minifica-codice|dev-formato|📦|t|Minifica HTML, CSS e JS|Meno peso per il tuo sito.|Minify HTML, CSS and JS|Lighter files for your site.
+anteprima-markdown|dev-formato|👁️|t|Anteprima Markdown|Scrivi in Markdown e vedi subito il risultato.|Markdown preview|Write Markdown and see the result instantly.
+html-in-markdown|dev-formato|↩️|t|HTML in Markdown|Da codice HTML a Markdown.|HTML to Markdown|From HTML code to Markdown.
+confronta-codice|dev-formato|🆚|t|Confronta codice (diff)|Differenze riga per riga tra due versioni.|Code diff|Line-by-line differences between two versions.
+base64-codifica|dev-codici|🔐|t|Base64 codifica e decodifica|Testo e file da e verso Base64.|Base64 encode and decode|Text and files to and from Base64.
+url-codifica|dev-codici|🔗|t|Codifica URL|Codifica e decodifica indirizzi web.|URL encoder and decoder|Encode and decode web addresses.
+decodifica-jwt|dev-codici|🪪|t|Decodifica JWT|Leggi header e contenuto di un token JWT.|JWT decoder|Read the header and payload of a JWT token.
+genera-hash|dev-codici|#️⃣|t|Genera hash|MD5, SHA-1 e SHA-256 di un testo.|Hash generator|MD5, SHA-1 and SHA-256 of a text.
+genera-uuid|dev-codici|🆔|t|Genera UUID|Identificativi univoci pronti da copiare.|UUID generator|Unique identifiers ready to copy.
+timestamp-unix|dev-codici|⏱️|t|Timestamp Unix in data|Da timestamp a data leggibile e viceversa.|Unix timestamp converter|From timestamp to readable date and back.
+tester-regex|dev-codici|🎯|t|Tester di espressioni regolari|Prova una regex su un testo e vedi le corrispondenze.|Regex tester|Try a regex on a text and see the matches.
+cron-spiegato|dev-codici|🕒|t|Spiega espressione cron|Cosa significa quel cron, in italiano semplice.|Cron explainer|What that cron means, in plain words.
+genera-regex-ia|dev-ia|🪄|t|Genera regex con l'IA|Descrivi cosa cercare e ricevi la regex.|AI regex generator|Describe what to find and get the regex.
+genera-sql-ia|dev-ia|🧠|t|Genera SQL con l'IA|Dalla domanda in italiano alla query SQL.|AI SQL generator|From a plain question to an SQL query.
+spiega-codice-ia|dev-ia|💡|t|Spiega codice con l'IA|Incolla del codice e capisci cosa fa riga per riga.|AI code explainer|Paste code and understand what it does line by line.
+converti-codice-ia|dev-ia|🔧|t|Converti codice tra linguaggi|Da PHP a Python, da JavaScript a TypeScript e altro.|Convert code between languages|From PHP to Python, JavaScript to TypeScript and more.
+genera-qr-code|dev-web|▦|t|Genera QR code|QR per link, Wi-Fi, testo e contatti, in PNG e SVG.|QR code generator|QR for links, Wi-Fi, text and contacts, as PNG and SVG.
+genera-robots-txt|dev-web|🤖|t|Genera robots.txt|Il file giusto per i motori di ricerca.|robots.txt generator|The right file for search engines.
+genera-sitemap|dev-web|🗺️|u|Genera sitemap XML|Dal link del tuo sito alla sitemap pronta.|XML sitemap generator|From your site link to a ready sitemap.
+converti-colori|dev-web|🎨|t|Converti colori HEX, RGB, HSL|E trova le tonalita' abbinate.|Color converter|Convert HEX, RGB, HSL and find matching shades.
+# ---------------- BUSINESS E FISCO ----------------
+calcolo-iva|biz-fisco|➗|t|Calcola IVA|Aggiungi l'IVA a un importo (22%, 10%, 5%, 4%).|VAT calculator|Add VAT to an amount.
+scorporo-iva|biz-fisco|➖|t|Scorporo IVA|Dal totale all'imponibile e all'IVA.|VAT breakdown|From the total to net amount and VAT.
+calcola-codice-fiscale|biz-fisco|🪪|t|Calcola codice fiscale|Dai tuoi dati al codice fiscale.|Italian tax code calculator|From your details to the codice fiscale.
+verifica-partita-iva|biz-fisco|🔎|t|Verifica partita IVA|Controlla che una partita IVA sia valida.|VAT number checker|Check that a VAT number is valid.
+verifica-iban|biz-fisco|🏦|t|Verifica IBAN|Controlla la correttezza di un IBAN.|IBAN checker|Check that an IBAN is correct.
+stipendio-netto-lordo|biz-fisco|💶|t|Stipendio netto e lordo|Stima il netto in busta paga dal lordo annuo.|Net and gross salary|Estimate net pay from annual gross.
+calcola-tfr|biz-fisco|🧳|t|Calcola TFR|Stima del trattamento di fine rapporto.|Severance (TFR) calculator|Estimate of Italian severance pay.
+interessi-legali|biz-fisco|📆|t|Calcola interessi legali|Interessi su un importo tra due date.|Legal interest calculator|Interest on an amount between two dates.
+calcola-margine|biz-fisco|📐|t|Margine e ricarico|Prezzo di vendita, margine e ricarico.|Margin and markup|Selling price, margin and markup.
+calcola-roi|biz-fisco|📈|t|Calcola ROI|Il ritorno del tuo investimento o della tua pubblicita'.|ROI calculator|The return of your investment or ads.
+genera-preventivo|biz-doc|🧾|t|Genera preventivo|Un preventivo ordinato in PDF, con il tuo logo.|Quote generator|A tidy quote as PDF with your logo.
+genera-ricevuta|biz-doc|🧷|t|Genera ricevuta|Ricevute semplici per prestazioni e vendite.|Receipt generator|Simple receipts for services and sales.
+genera-privacy-policy|biz-doc|🛡️|t|Genera privacy policy|Modello di informativa privacy per il tuo sito.|Privacy policy generator|Privacy notice template for your site.
+genera-cookie-policy|biz-doc|🍪|t|Genera cookie policy|Cookie policy da adattare al tuo sito.|Cookie policy generator|Cookie policy to adapt to your site.
+lettera-di-diffida|biz-doc|✉️|t|Lettera di diffida|Modello da personalizzare. Non sostituisce un legale.|Cease-and-desist letter|Template to customize. Does not replace a lawyer.
+contratto-affitto-modello|biz-doc|🏠|t|Modello contratto di affitto|Bozza da personalizzare per locazioni.|Rental contract template|Draft to customize for leases.
+lettera-dimissioni|biz-doc|🚪|t|Lettera di dimissioni|Modello pronto da compilare.|Resignation letter|A ready template to fill in.
+business-plan-ia|biz-doc|📘|t|Business plan con l'IA|Dalla tua idea a un piano strutturato.|AI business plan|From your idea to a structured plan.
+nome-attivita-ia|biz-doc|💭|t|Idee per il nome dell'attivita'|Nomi e slogan per la tua impresa.|Business name ideas|Names and slogans for your company.
+# ---------------- SEO E SOCIAL ----------------
+genera-meta-tag|mkt-seo|🏷️|t|Genera meta tag SEO|Title e description ottimizzati per Google.|SEO meta tag generator|Optimized title and description for Google.
+analizza-seo-pagina|mkt-seo|🔍|u|Analizza SEO di una pagina|Incolla il link e ricevi cosa migliorare.|Page SEO checker|Paste the link and see what to improve.
+anteprima-google|mkt-seo|🪟|t|Anteprima risultato Google|Come appare il tuo titolo nei risultati.|Google snippet preview|How your title looks in search results.
+genera-schema-faq|mkt-seo|❓|t|Genera dati strutturati FAQ|Schema FAQ pronto da incollare nel sito.|FAQ schema generator|FAQ schema ready to paste on your site.
+genera-utm|mkt-seo|🔗|t|Costruttore di link UTM|Link tracciabili per le tue campagne.|UTM link builder|Trackable links for your campaigns.
+idee-articoli-blog|mkt-seo|💡|t|Idee per articoli di blog|Argomenti che la gente cerca davvero.|Blog post ideas|Topics people actually search for.
+descrizione-prodotto-ia|mkt-seo|🛒|t|Descrizione prodotto con l'IA|Schede prodotto efficaci per il tuo ecommerce.|AI product description|Strong product pages for your store.
+email-marketing-ia|mkt-seo|📬|t|Email marketing con l'IA|Newsletter e sequenze di email che convertono.|AI marketing email|Newsletters and email sequences that convert.
+hashtag-ia|mkt-social|#️⃣|t|Genera hashtag|Gli hashtag giusti per ogni post.|Hashtag generator|The right hashtags for every post.
+bio-instagram|mkt-social|📸|t|Bio Instagram e TikTok|Bio brevi e memorabili.|Instagram and TikTok bio|Short, memorable bios.
+post-linkedin-ia|mkt-social|💼|t|Post LinkedIn con l'IA|Da un'idea a un post che si legge.|AI LinkedIn post|From an idea to a post people read.
+titoli-youtube|mkt-social|▶️|t|Titoli e descrizioni YouTube|Titoli cliccabili e descrizioni ottimizzate.|YouTube titles and descriptions|Clickable titles and optimized descriptions.
+script-video-breve|mkt-social|🎬|t|Script per video brevi|Copioni per Reel, Shorts e TikTok.|Short video script|Scripts for Reels, Shorts and TikTok.
+piano-editoriale-ia|mkt-social|🗓️|t|Piano editoriale social|Un mese di contenuti organizzati.|Social content calendar|A month of organized content.
+rispondi-recensioni-ia|mkt-social|⭐|t|Rispondi alle recensioni|Risposte professionali a recensioni positive e negative.|Reply to reviews|Professional replies to positive and negative reviews.
+genera-slogan|mkt-social|📣|t|Genera slogan|Frasi brevi e memorabili per il tuo brand.|Slogan generator|Short, memorable lines for your brand.
+# ---------------- STUDIO ----------------
+quiz-da-testo|stu-impara|❔|t|Quiz dal testo|Domande a scelta multipla dai tuoi appunti.|Quiz from text|Multiple-choice questions from your notes.
+flashcard-da-testo|stu-impara|🗂️|t|Flashcard dal testo|Carte di ripasso dai tuoi appunti.|Flashcards from text|Review cards from your notes.
+schema-da-testo|stu-impara|🌿|t|Schema e mappa dal testo|Un capitolo diventa uno schema.|Outline from text|A chapter becomes an outline.
+spiega-semplice|stu-impara|👶|t|Spiegami come se avessi 10 anni|Concetti difficili in parole semplici.|Explain it simply|Hard concepts in simple words.
+domande-orale|stu-impara|🎤|t|Domande per l'orale|Simula l'interrogazione o l'esame.|Oral exam practice|Practice your oral exam.
+risolvi-passo-passo|stu-impara|🧠|t|Risolvi problemi passo passo|Matematica e fisica spiegate per capire.|Step-by-step solver|Math and physics explained so you understand.
+genera-bibliografia|stu-scrivi|📚|t|Genera bibliografia|Citazioni in APA, MLA, Harvard e Chicago.|Bibliography generator|Citations in APA, MLA, Harvard and Chicago.
+indice-tesi-ia|stu-scrivi|🎓|t|Indice per la tesi|Una struttura per capitoli dal tuo argomento.|Thesis outline|A chapter structure from your topic.
+calcola-media-voti|stu-scrivi|🧮|t|Calcola la media dei voti|Media aritmetica e ponderata, e voto di laurea.|Grade average calculator|Arithmetic and weighted average, and final grade.
+timer-pomodoro|stu-scrivi|🍅|t|Timer Pomodoro|Studio a blocchi con pause.|Pomodoro timer|Study in blocks with breaks.
+# ---------------- PRIVACY E SICUREZZA ----------------
+genera-password|prv-password|🔑|t|Genera password sicura|Password lunghe e casuali, create nel tuo browser.|Secure password generator|Long random passwords created in your browser.
+controlla-password|prv-password|💪|t|Controlla la forza della password|Quanto ci metterebbe un attacco a indovinarla.|Password strength checker|How long an attack would take to guess it.
+genera-frase-password|prv-password|💬|t|Genera frase password|Frasi facili da ricordare e difficili da scoprire.|Passphrase generator|Easy to remember, hard to guess.
+cifra-testo|prv-password|🔒|t|Cifra e decifra testo|Proteggi un messaggio con una password.|Encrypt and decrypt text|Protect a message with a password.
+controlla-email-violata|prv-dati|📮|t|La tua email e' stata violata?|Controlla se compare in fughe di dati note.|Has your email been breached?|Check if it appears in known data leaks.
+verifica-email-phishing|prv-dati|🎣|t|Email sospetta o phishing?|Incolla l'email e scopri i segnali di truffa.|Phishing email check|Paste the email and spot the scam signs.
+verifica-sms-truffa|prv-dati|📱|t|SMS o messaggio truffa?|Banca, corriere o Poste: e' vero o falso?|Scam message check|Bank, courier or post office: real or fake?
+verifica-link-sospetto|prv-dati|🚨|u|Link sospetto?|Controlla un indirizzo prima di cliccare.|Suspicious link check|Check an address before you click.
+genera-hash-file|prv-dati|🧬|f|Impronta digitale di un file|Verifica che un file non sia stato alterato.|File checksum|Check that a file has not been altered.
+# ---------------- CALCOLATORI E CONVERTITORI ----------------
+convertitore-unita|cal-conv|📏|t|Convertitore di unita'|Lunghezze, pesi, temperature, volumi e altro.|Unit converter|Lengths, weights, temperatures, volumes and more.
+calcola-percentuale|cal-conv|％|t|Calcolatore di percentuali|Percentuali, sconti e variazioni.|Percentage calculator|Percentages, discounts and changes.
+calcola-sconto|cal-conv|🏷️|t|Calcola sconto|Prezzo finale dopo uno o piu' sconti.|Discount calculator|Final price after one or more discounts.
+numeri-romani|cal-conv|🏛️|t|Numeri romani|Da numero a romano e viceversa.|Roman numerals|From number to Roman and back.
+misure-cucina|cal-conv|🥄|t|Misure di cucina|Grammi, tazze, cucchiai e millilitri.|Cooking measures|Grams, cups, spoons and milliliters.
+calcola-mutuo|cal-conv|🏡|t|Calcola rata del mutuo|Rata, interessi e totale da restituire.|Mortgage calculator|Payment, interest and total to repay.
+calcola-prestito|cal-conv|💳|t|Calcola rata del prestito|Rata e costo totale di un finanziamento.|Loan calculator|Payment and total cost of a loan.
+calcola-bmi|cal-conv|⚖️|t|Calcola BMI|Indice di massa corporea. Indicativo, non e' un parere medico.|BMI calculator|Body mass index. Indicative, not medical advice.
+calcola-carburante|cal-conv|⛽|t|Consumo e costo carburante|Quanto spendi per un viaggio.|Fuel cost calculator|How much a trip costs.
+fuso-orario|cal-data|🕰️|t|Convertitore fuso orario|Che ore sono li'? Orari tra citta' diverse.|Time zone converter|What time is it there? Times across cities.
+calcola-eta|cal-data|🎂|t|Calcola l'eta'|Anni, mesi e giorni da una data di nascita.|Age calculator|Years, months and days from a birth date.
+differenza-date|cal-data|📅|t|Differenza tra due date|Giorni, settimane e mesi tra due date.|Date difference|Days, weeks and months between two dates.
+aggiungi-giorni|cal-data|➕|t|Aggiungi giorni a una data|Scadenze e termini in un attimo.|Add days to a date|Deadlines and terms in a moment.
+conto-alla-rovescia|cal-data|⏳|t|Giorni mancanti a un evento|Quanto manca a ferie, esami o compleanni.|Days until an event|How long until holidays, exams or birthdays.
+numero-casuale|cal-data|🎲|t|Numero casuale e dado|Estrazioni, dadi e scelte a caso.|Random number and dice|Draws, dice and random picks.

@@ -1,0 +1,10 @@
+---
+ref: settore-office
+layout: default
+title: "Strumenti Word, Excel e dati gratuiti online"
+seo_description: "Converti, pulisci e analizza file Excel, CSV e Word. Gratis, senza installare nulla."
+description: "Converti, pulisci e analizza file Excel, CSV e Word. Gratis, senza installare nulla."
+permalink: /strumenti-office/
+---
+<div id="ft-app" data-mode="settore" data-sector="office" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><h1>Strumenti Word, Excel e dati</h1><p>Converti, pulisci e analizza file Excel, CSV e Word.</p><ul><li><a href="{{ '/strumenti/csv-in-excel/' | relative_url }}">CSV in Excel</a></li><li><a href="{{ '/strumenti/excel-in-csv/' | relative_url }}">Excel in CSV</a></li><li><a href="{{ '/strumenti/unisci-excel/' | relative_url }}">Unisci file Excel</a></li><li><a href="{{ '/strumenti/pulisci-excel/' | relative_url }}">Pulisci Excel</a></li><li><a href="{{ '/strumenti/formula-excel-ia/' | relative_url }}">Formula Excel con l'IA</a></li><li><a href="{{ '/strumenti/chatta-con-excel/' | relative_url }}">Chatta con il tuo Excel</a></li><li><a href="{{ '/strumenti/grafico-da-dati/' | relative_url }}">Grafico dai tuoi dati</a></li><li><a href="{{ '/strumenti/confronta-excel/' | relative_url }}">Confronta due Excel</a></li><li><a href="{{ '/strumenti/json-in-excel/' | relative_url }}">JSON in Excel</a></li><li><a href="{{ '/strumenti/excel-in-json/' | relative_url }}">Excel in JSON</a></li><li><a href="{{ '/strumenti/word-in-testo/' | relative_url }}">Word in testo semplice</a></li><li><a href="{{ '/strumenti/word-in-markdown/' | relative_url }}">Word in Markdown</a></li><li><a href="{{ '/strumenti/word-in-html/' | relative_url }}">Word in HTML</a></li><li><a href="{{ '/strumenti/unisci-word/' | relative_url }}">Unisci documenti Word</a></li><li><a href="{{ '/strumenti/riassumi-word/' | relative_url }}">Riassumi documento Word</a></li><li><a href="{{ '/strumenti/correggi-word/' | relative_url }}">Correggi documento Word</a></li></ul></div>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>

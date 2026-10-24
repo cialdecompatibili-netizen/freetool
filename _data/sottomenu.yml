@@ -40,3 +40,19 @@ Strumenti:
     url: /strumenti-audio/
   - title: "Strumenti video"
     url: /strumenti-video/
+  - title: "Strumenti testo e scrittura"
+    url: /strumenti-testo/
+  - title: "Strumenti Word, Excel e dati"
+    url: /strumenti-office/
+  - title: "Strumenti business e fisco"
+    url: /strumenti-business/
+  - title: "Strumenti per studiare"
+    url: /strumenti-studio/
+  - title: "Strumenti SEO e social"
+    url: /strumenti-seo-social/
+  - title: "Strumenti per sviluppatori"
+    url: /strumenti-sviluppatori/
+  - title: "Strumenti privacy e sicurezza"
+    url: /strumenti-privacy/
+  - title: "Calcolatori e convertitori"
+    url: /strumenti-calcolatori/

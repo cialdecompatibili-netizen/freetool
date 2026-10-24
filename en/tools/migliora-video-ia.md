@@ -7,7 +7,7 @@ description: "Sharper and higher resolution, even for old videos. Free, nothing 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1153ohx
+tr_hash: 1lku44i
 permalink: /en/tools/migliora-video-ia/
 ---
 <div id="ft-app" data-mode="tool" data-tool="migliora-video-ia" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>AI video enhancer</h1><p>Sharper and higher resolution, even for old videos.</p></section></div>
