@@ -1,3 +1,5 @@
+> **FILOSOFIA FREETOOL (leggi `docs/FILOSOFIA.md` per primo):** questo sito e' uno smoke test: catalogo di strumenti gratuiti stile iLovePDF che NON funzionano; chi prova a usarli si registra con la sola email e cosi si misura la domanda. Catalogo in `assets/data/strumenti.json`, pagine con `automation/genera_strumenti.py`. Dominio: freetool.ipermark.com.
+
 # mistraltemplate1 - guida per Claude (template Jekyll adattivo)
 
 Template Jekyll per GitHub Pages: si clona, si cambia quasi solo `_config.yml` e il sito si adatta (lingua, URL, brand, menu, shop). Obiettivo e stato del lavoro: `PROGETTO_TEMPLATE.md`.

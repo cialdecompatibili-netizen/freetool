@@ -1,0 +1,667 @@
+{
+ "settori": [
+  {
+   "id": "pdf",
+   "it": "PDF",
+   "en": "PDF"
+  }
+ ],
+ "categorie": [
+  {
+   "id": "organizza",
+   "settore": "pdf",
+   "it": "Organizza PDF",
+   "en": "Organize PDF",
+   "colore": "#8b5cf6"
+  },
+  {
+   "id": "ottimizza",
+   "settore": "pdf",
+   "it": "Ottimizza PDF",
+   "en": "Optimize PDF",
+   "colore": "#22a559"
+  },
+  {
+   "id": "converti",
+   "settore": "pdf",
+   "it": "Converti PDF",
+   "en": "Convert PDF",
+   "colore": "#f08a24"
+  },
+  {
+   "id": "modifica",
+   "settore": "pdf",
+   "it": "Modifica PDF",
+   "en": "Edit PDF",
+   "colore": "#2d7ff9"
+  },
+  {
+   "id": "sicurezza",
+   "settore": "pdf",
+   "it": "Sicurezza PDF",
+   "en": "PDF security",
+   "colore": "#4b5563"
+  },
+  {
+   "id": "ai",
+   "settore": "pdf",
+   "it": "PDF e IA",
+   "en": "PDF and AI",
+   "colore": "#e5322d"
+  }
+ ],
+ "strumenti": [
+  {
+   "id": "unisci-pdf",
+   "cat": "organizza",
+   "ico": "🔗",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Unisci PDF",
+    "Metti insieme più PDF in un unico file, nell'ordine che vuoi."
+   ],
+   "en": [
+    "Merge PDF",
+    "Combine several PDFs into one file, in the order you choose."
+   ]
+  },
+  {
+   "id": "dividi-pdf",
+   "cat": "organizza",
+   "ico": "✂️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Dividi PDF",
+    "Separa un PDF in più file o estrai solo le pagine che ti servono."
+   ],
+   "en": [
+    "Split PDF",
+    "Break a PDF into several files or pull out only the pages you need."
+   ]
+  },
+  {
+   "id": "comprimi-pdf",
+   "cat": "ottimizza",
+   "ico": "🗜️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Comprimi PDF",
+    "Riduci il peso del file mantenendo una buona qualità."
+   ],
+   "en": [
+    "Compress PDF",
+    "Make the file lighter while keeping good quality."
+   ]
+  },
+  {
+   "id": "pdf-in-word",
+   "cat": "converti",
+   "ico": "📝",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "PDF in Word",
+    "Ottieni un documento Word modificabile partendo da un PDF."
+   ],
+   "en": [
+    "PDF to Word",
+    "Get an editable Word document from a PDF."
+   ]
+  },
+  {
+   "id": "word-in-pdf",
+   "cat": "converti",
+   "ico": "📄",
+   "input": "file",
+   "accept": ".doc,.docx",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Word in PDF",
+    "Trasforma i documenti Word in PDF identici all'originale."
+   ],
+   "en": [
+    "Word to PDF",
+    "Turn Word documents into PDFs that look just like the original."
+   ]
+  },
+  {
+   "id": "modifica-pdf",
+   "cat": "modifica",
+   "ico": "✏️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Modifica PDF",
+    "Aggiungi testo, immagini, forme e note a mano libera."
+   ],
+   "en": [
+    "Edit PDF",
+    "Add text, images, shapes and freehand notes."
+   ]
+  },
+  {
+   "id": "firma-pdf",
+   "cat": "sicurezza",
+   "ico": "✍️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Firma PDF",
+    "Firma tu stesso il documento o chiedi la firma ad altri."
+   ],
+   "en": [
+    "Sign PDF",
+    "Sign the document yourself or ask others to sign."
+   ]
+  },
+  {
+   "id": "pdf-in-excel",
+   "cat": "converti",
+   "ico": "📊",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "PDF in Excel",
+    "Porta tabelle e dati dal PDF a un foglio Excel."
+   ],
+   "en": [
+    "PDF to Excel",
+    "Move tables and data from a PDF into an Excel sheet."
+   ]
+  },
+  {
+   "id": "jpg-in-pdf",
+   "cat": "converti",
+   "ico": "🖼️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "JPG in PDF",
+    "Crea un PDF dalle tue immagini, con orientamento e margini."
+   ],
+   "en": [
+    "JPG to PDF",
+    "Create a PDF from your images, with orientation and margins."
+   ]
+  },
+  {
+   "id": "pdf-in-jpg",
+   "cat": "converti",
+   "ico": "🏞️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "PDF in JPG",
+    "Salva ogni pagina del PDF come immagine."
+   ],
+   "en": [
+    "PDF to JPG",
+    "Save each PDF page as an image."
+   ]
+  },
+  {
+   "id": "ocr-pdf",
+   "cat": "ottimizza",
+   "ico": "🔍",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "OCR PDF",
+    "Rendi ricercabile e selezionabile il testo dei PDF scansionati."
+   ],
+   "en": [
+    "OCR PDF",
+    "Make the text of scanned PDFs searchable and selectable."
+   ]
+  },
+  {
+   "id": "riassumi-pdf",
+   "cat": "ai",
+   "ico": "✨",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Riassumi PDF con l'IA",
+    "Ottieni un riassunto con i punti chiave in pochi secondi."
+   ],
+   "en": [
+    "Summarize PDF with AI",
+    "Get a summary with the key points in seconds."
+   ]
+  },
+  {
+   "id": "traduci-pdf",
+   "cat": "ai",
+   "ico": "🌍",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Traduci PDF",
+    "Traduci il documento mantenendo l'impaginazione."
+   ],
+   "en": [
+    "Translate PDF",
+    "Translate the document keeping its layout."
+   ]
+  },
+  {
+   "id": "chatta-con-pdf",
+   "cat": "ai",
+   "ico": "💬",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Chatta con il PDF",
+    "Fai domande al documento e ricevi risposte con le fonti."
+   ],
+   "en": [
+    "Chat with PDF",
+    "Ask the document questions and get answers with sources."
+   ]
+  },
+  {
+   "id": "estrai-dati-pdf",
+   "cat": "ai",
+   "ico": "🧾",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Estrai dati da fatture",
+    "Leggi in automatico fornitore, importi e date dai PDF."
+   ],
+   "en": [
+    "Extract invoice data",
+    "Automatically read supplier, amounts and dates from PDFs."
+   ]
+  },
+  {
+   "id": "pdf-in-powerpoint",
+   "cat": "converti",
+   "ico": "📽️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "PDF in PowerPoint",
+    "Trasforma il PDF in una presentazione modificabile."
+   ],
+   "en": [
+    "PDF to PowerPoint",
+    "Turn the PDF into an editable presentation."
+   ]
+  },
+  {
+   "id": "powerpoint-in-pdf",
+   "cat": "converti",
+   "ico": "🎞️",
+   "input": "file",
+   "accept": ".ppt,.pptx",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "PowerPoint in PDF",
+    "Converti le presentazioni in PDF pronti da condividere."
+   ],
+   "en": [
+    "PowerPoint to PDF",
+    "Convert presentations into PDFs ready to share."
+   ]
+  },
+  {
+   "id": "excel-in-pdf",
+   "cat": "converti",
+   "ico": "📈",
+   "input": "file",
+   "accept": ".xls,.xlsx",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Excel in PDF",
+    "Converti i fogli di calcolo in PDF con le colonne a misura di pagina."
+   ],
+   "en": [
+    "Excel to PDF",
+    "Convert spreadsheets into PDFs with columns fitted to the page."
+   ]
+  },
+  {
+   "id": "html-in-pdf",
+   "cat": "converti",
+   "ico": "🌐",
+   "input": "url",
+   "accept": "",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "HTML in PDF",
+    "Trasforma una pagina web in PDF incollando l'indirizzo."
+   ],
+   "en": [
+    "HTML to PDF",
+    "Turn a web page into a PDF by pasting its address."
+   ]
+  },
+  {
+   "id": "proteggi-pdf",
+   "cat": "sicurezza",
+   "ico": "🔒",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Proteggi PDF",
+    "Cifra il PDF con una password."
+   ],
+   "en": [
+    "Protect PDF",
+    "Encrypt the PDF with a password."
+   ]
+  },
+  {
+   "id": "sblocca-pdf",
+   "cat": "sicurezza",
+   "ico": "🔓",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Sblocca PDF",
+    "Rimuovi la password da un PDF di cui sei il proprietario."
+   ],
+   "en": [
+    "Unlock PDF",
+    "Remove the password from a PDF you own."
+   ]
+  },
+  {
+   "id": "ruota-pdf",
+   "cat": "modifica",
+   "ico": "🔄",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Ruota PDF",
+    "Gira le pagine nel verso giusto, anche di più file insieme."
+   ],
+   "en": [
+    "Rotate PDF",
+    "Turn pages the right way up, even across several files."
+   ]
+  },
+  {
+   "id": "organizza-pdf",
+   "cat": "organizza",
+   "ico": "🗂️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Organizza PDF",
+    "Riordina, elimina e aggiungi pagine con un'anteprima."
+   ],
+   "en": [
+    "Organize PDF",
+    "Reorder, delete and add pages with a preview."
+   ]
+  },
+  {
+   "id": "rimuovi-pagine-pdf",
+   "cat": "organizza",
+   "ico": "🗑️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Rimuovi pagine PDF",
+    "Elimina le pagine che non servono da un documento."
+   ],
+   "en": [
+    "Remove PDF pages",
+    "Delete the pages you do not need from a document."
+   ]
+  },
+  {
+   "id": "estrai-pagine-pdf",
+   "cat": "organizza",
+   "ico": "📤",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Estrai pagine PDF",
+    "Salva solo alcune pagine in un nuovo PDF."
+   ],
+   "en": [
+    "Extract PDF pages",
+    "Save only some pages into a new PDF."
+   ]
+  },
+  {
+   "id": "filigrana-pdf",
+   "cat": "modifica",
+   "ico": "💧",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Filigrana PDF",
+    "Applica un testo o un logo sopra le pagine."
+   ],
+   "en": [
+    "Watermark PDF",
+    "Stamp text or a logo on top of the pages."
+   ]
+  },
+  {
+   "id": "numeri-di-pagina",
+   "cat": "modifica",
+   "ico": "🔢",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Numera pagine PDF",
+    "Aggiungi i numeri di pagina scegliendo posizione e formato."
+   ],
+   "en": [
+    "Add page numbers",
+    "Add page numbers, choosing position and format."
+   ]
+  },
+  {
+   "id": "ritaglia-pdf",
+   "cat": "modifica",
+   "ico": "📐",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Ritaglia PDF",
+    "Taglia i margini o seleziona l'area da tenere."
+   ],
+   "en": [
+    "Crop PDF",
+    "Trim the margins or select the area to keep."
+   ]
+  },
+  {
+   "id": "censura-pdf",
+   "cat": "sicurezza",
+   "ico": "⬛",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Censura PDF",
+    "Oscura in modo permanente testi e immagini sensibili."
+   ],
+   "en": [
+    "Redact PDF",
+    "Permanently black out sensitive text and images."
+   ]
+  },
+  {
+   "id": "confronta-pdf",
+   "cat": "sicurezza",
+   "ico": "⚖️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Confronta PDF",
+    "Metti due versioni a confronto e vedi cosa è cambiato."
+   ],
+   "en": [
+    "Compare PDF",
+    "Put two versions side by side and see what changed."
+   ]
+  },
+  {
+   "id": "moduli-pdf",
+   "cat": "modifica",
+   "ico": "📋",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Moduli PDF",
+    "Crea o compila moduli con campi di testo e caselle."
+   ],
+   "en": [
+    "PDF forms",
+    "Create or fill in forms with text fields and checkboxes."
+   ]
+  },
+  {
+   "id": "ripara-pdf",
+   "cat": "ottimizza",
+   "ico": "🛠️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "Ripara PDF",
+    "Recupera il contenuto di un PDF danneggiato."
+   ],
+   "en": [
+    "Repair PDF",
+    "Recover the content of a damaged PDF."
+   ]
+  },
+  {
+   "id": "pdf-in-pdfa",
+   "cat": "ottimizza",
+   "ico": "📦",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "PDF in PDF/A",
+    "Prepara il documento per l'archiviazione a lungo termine."
+   ],
+   "en": [
+    "PDF to PDF/A",
+    "Prepare the document for long-term archiving."
+   ]
+  },
+  {
+   "id": "scansiona-in-pdf",
+   "cat": "organizza",
+   "ico": "📷",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": false,
+   "it": [
+    "Scansiona in PDF",
+    "Trasforma le foto dei documenti in un PDF pulito."
+   ],
+   "en": [
+    "Scan to PDF",
+    "Turn photos of documents into a clean PDF."
+   ]
+  },
+  {
+   "id": "pdf-in-markdown",
+   "cat": "ai",
+   "ico": "⬇️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "PDF in Markdown",
+    "Converti il PDF in Markdown, ideale per note e LLM."
+   ],
+   "en": [
+    "PDF to Markdown",
+    "Convert the PDF to Markdown, great for notes and LLMs."
+   ]
+  },
+  {
+   "id": "pdf-in-testo",
+   "cat": "converti",
+   "ico": "📃",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": false,
+   "it": [
+    "PDF in testo",
+    "Estrai tutto il testo di un PDF in un file TXT."
+   ],
+   "en": [
+    "PDF to text",
+    "Extract all the text of a PDF into a TXT file."
+   ]
+  }
+ ]
+}

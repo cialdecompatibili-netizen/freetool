@@ -1,12 +1,8 @@
 main:
-  - title: "Home"
+  - title: "Tools"
     url: /en/
-  - title: "Services"
-    url: /en/services/
   - title: "Blog"
     url: /en/blog/
-  - title: "Shop"
-    url: /en/shop/
   - title: "About us"
     url: /en/about-us/
   - title: "Contact"

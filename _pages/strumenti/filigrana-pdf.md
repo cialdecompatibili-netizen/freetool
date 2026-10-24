@@ -1,0 +1,10 @@
+---
+ref: tool-filigrana-pdf
+layout: default
+title: "Filigrana PDF gratis online"
+seo_description: "Applica un testo o un logo sopra le pagine. Gratis, senza installare nulla."
+description: "Applica un testo o un logo sopra le pagine. Gratis, senza installare nulla."
+permalink: /strumenti/filigrana-pdf/
+---
+<div id="ft-app" data-mode="tool" data-tool="filigrana-pdf" data-lang="it" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Filigrana PDF</h1><p>Applica un testo o un logo sopra le pagine.</p></section></div>
+<script src="{{ '/assets/js/freetool.js?v=1' | relative_url }}" defer></script>

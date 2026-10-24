@@ -1,14 +1,14 @@
 [
   {
     "id": "chi",
-    "nome": "About us",
+    "nome": "Chi siamo",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">About us</p><h2 class=\"gc-h2\">Title of the introduction</h2><p class=\"gc-lead\">Who you are, what you do and for whom.</p><p>One more paragraph about how you work.</p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">About us</p><h2 class=\"gc-h2\">FreeTool</h2><p class=\"gc-lead\">Free online tools to work better with your files.</p><p>We are opening the tools in groups, starting with the most requested. Sign up with your email and we will tell you as soon as the one you need is live.</p></div></section></div>"
   },
   {
     "id": "principi",
-    "nome": "Principles",
+    "nome": "Principi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">How we behave</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>First principle</b><p>Short description.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Second principle</b><p>Short description.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Third principle</b><p>Short description.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">How we work</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Free to start</b><p>You can use the tools every day without paying.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Simple</b><p>Everything works in the browser, nothing to install.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Respect for privacy</b><p>At this stage we do not upload your files: we only use your email to keep you posted.</p></div></div></div></section></div>"
   }
 ]

@@ -1,6 +1,5 @@
-# mistraltemplate1
+# FreeTool
 
-Template stabile e adattivo per qualsiasi nuova repo (tutto automatico). Base: derivato da un template gaming (ripulito dai contenuti).
+Catalogo di strumenti online gratuiti (PDF per primi) in stile iLovePDF. Smoke test: chi prova uno strumento si registra con la sola email, cosi si capisce cosa sviluppare. Vedi `docs/FILOSOFIA.md`.
 
-Leggi [PROGETTO_TEMPLATE.md](PROGETTO_TEMPLATE.md).
-
+Dominio: https://freetool.ipermark.com
