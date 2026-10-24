@@ -15,7 +15,7 @@ dice quale strumento le serviva. Cosi' si capisce **dove vale la pena sviluppare
 5. Lo stesso utente, dopo la prima volta, non reinserisce l'email (localStorage `ft_email`): ogni nuovo strumento provato e' un nuovo voto.
 
 ## Struttura: HOME = tessere dei settori
-- **Home** = una tessera (quadrato) per ogni **settore**, oggi una sola: "Strumenti PDF". NON elenca i tool. La ricerca in home cerca tra tutti i tool di tutti i settori.
+- **Home** = una tessera (quadrato) per ogni **settore**, oggi tre: "Strumenti PDF", "Strumenti immagini", "Audio e video". NON elenca i tool. La ricerca in home cerca tra tutti i tool di tutti i settori.
 - Clic sulla tessera = **pagina del settore** (`/strumenti-pdf/`, `/en/pdf-tools/`) con la griglia dei suoi strumenti e le categorie. Clic su uno strumento = pagina dello strumento.
 - **Menu**: Home + una voce per settore (fino a 3 settori; oltre 3 diventa la tendina "Strumenti"). Lo scrive `genera_strumenti.py`: non modificare a mano le voci dei settori.
 - **Aggiungere un settore** (es. Immagini, Video, Ufficio, IA...): in `assets/data/strumenti.json` aggiungi in `settori` (id, it, en, slug.it, slug.en, ico, colore, desc.it, desc.en), le sue `categorie` (con `settore`) e i suoi `strumenti`; poi `python automation\genera_strumenti.py` e `python automation\allinea_hash.py`. Tessera, pagina, menu e pagine dei tool compaiono da soli.
@@ -34,3 +34,7 @@ Modello previsto: registrazione, alcuni crediti gratis al giorno con reset dopo 
 - Niente promesse false: nessun "file elaborato", nessun download finto.
 - Email usata solo per avvisare quando lo strumento e' attivo.
 - Non riusare il worker per clienti: questo e' il worker personale `contatti-form`.
+
+## Come si sceglie cosa aggiungere (smoke test)
+- Regola: offrire GRATIS tutto cio' che i concorrenti fanno pagare (Smallpdf Pro, iLovePDF Premium, Adobe: modifica testo, compressione forte, IA, batch, firme, workflow) e i servizi dei repo GitHub con piu' stelle (markitdown, Stirling-PDF, Whisper, Upscayl, PDFMathTranslate, Real-ESRGAN, OCRmyPDF). Servono solo a misurare la domanda: poi si sviluppa su VPS quello che la gente chiede.
+- Script che aggiungono tool al catalogo (rilanciabili, niente doppioni): `automation/aggiungi_strumenti_1.py` (PDF, ordinati per priorita'), `automation/aggiungi_strumenti_2.py` (PDF con ancora `after` + settori Immagini e Audio/Video). Per altri tool: nuova riga nell'elenco, poi `genera_strumenti.py` e `allinea_hash.py en`.
