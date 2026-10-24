@@ -7,7 +7,7 @@ description: "Original and translation side by side, page by page. Free, nothing
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: m1b2q3
 permalink: /en/tools/pdf-bilingue/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-bilingue" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Bilingual side-by-side PDF</h1><p>Original and translation side by side, page by page.</p></section></div>

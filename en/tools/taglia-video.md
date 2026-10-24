@@ -7,7 +7,7 @@ description: "Pick the start and end and keep just that part. Free, nothing to i
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1b3q9ga
 permalink: /en/tools/taglia-video/
 ---
 <div id="ft-app" data-mode="tool" data-tool="taglia-video" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Trim video</h1><p>Pick the start and end and keep just that part.</p></section></div>

@@ -7,7 +7,7 @@ description: "Maximum space savings for the heaviest files. Free, nothing to ins
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: srlm2z
 permalink: /en/tools/comprimi-forte-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="comprimi-forte-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Strong compression</h1><p>Maximum space savings for the heaviest files.</p></section></div>

@@ -7,7 +7,7 @@ description: "Slides with titles and key points from a document. Free, nothing t
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: d6uu1e
 permalink: /en/tools/pdf-in-presentazione-ia/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-presentazione-ia" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Make slides from PDF</h1><p>Slides with titles and key points from a document.</p></section></div>

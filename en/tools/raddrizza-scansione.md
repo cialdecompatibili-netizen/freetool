@@ -7,7 +7,7 @@ description: "Fixes the tilt of scanned pages. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 2xydj6
 permalink: /en/tools/raddrizza-scansione/
 ---
 <div id="ft-app" data-mode="tool" data-tool="raddrizza-scansione" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Deskew scan</h1><p>Fixes the tilt of scanned pages.</p></section></div>

@@ -7,7 +7,7 @@ description: "Convert spreadsheets into PDFs with columns fitted to the page. Fr
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 7r6g32
 permalink: /en/tools/excel-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="excel-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Excel to PDF</h1><p>Convert spreadsheets into PDFs with columns fitted to the page.</p></section></div>

@@ -7,7 +7,7 @@ description: "Decisions, owners and deadlines as a list. Free, nothing to instal
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1k7ih5
 permalink: /en/tools/azioni-da-verbale/
 ---
 <div id="ft-app" data-mode="tool" data-tool="azioni-da-verbale" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Extract action items</h1><p>Decisions, owners and deadlines as a list.</p></section></div>

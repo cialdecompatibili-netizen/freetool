@@ -7,7 +7,7 @@ description: "Place a logo, signature or photo on the pages. Free, nothing to in
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1jdjfrv
 permalink: /en/tools/aggiungi-immagine-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="aggiungi-immagine-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Add image</h1><p>Place a logo, signature or photo on the pages.</p></section></div>

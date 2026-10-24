@@ -7,7 +7,7 @@ description: "Brings small photos to high resolution without pixelation. Free, n
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: doppzw
 permalink: /en/tools/ingrandisci-immagine/
 ---
 <div id="ft-app" data-mode="tool" data-tool="ingrandisci-immagine" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>AI image upscaler</h1><p>Brings small photos to high resolution without pixelation.</p></section></div>

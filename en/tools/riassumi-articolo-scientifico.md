@@ -7,7 +7,7 @@ description: "Method, results and limits in a few lines. Free, nothing to instal
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: v377k8
 permalink: /en/tools/riassumi-articolo-scientifico/
 ---
 <div id="ft-app" data-mode="tool" data-tool="riassumi-articolo-scientifico" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Summarize research paper</h1><p>Method, results and limits in a few lines.</p></section></div>

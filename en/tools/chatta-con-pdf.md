@@ -7,7 +7,7 @@ description: "Ask the document questions and get answers with sources. Free, not
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1s1zpl0
 permalink: /en/tools/chatta-con-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="chatta-con-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Chat with PDF</h1><p>Ask the document questions and get answers with sources.</p></section></div>

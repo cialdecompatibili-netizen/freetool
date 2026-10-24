@@ -7,7 +7,7 @@ description: "Add text, images, shapes and freehand notes. Free, nothing to inst
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1ybk6vc
 permalink: /en/tools/modifica-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="modifica-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Edit PDF</h1><p>Add text, images, shapes and freehand notes.</p></section></div>

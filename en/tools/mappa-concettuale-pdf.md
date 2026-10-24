@@ -7,7 +7,7 @@ description: "A tree diagram of the concepts in a chapter. Free, nothing to inst
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 17sg7iw
 permalink: /en/tools/mappa-concettuale-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="mappa-concettuale-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Mind map from PDF</h1><p>A tree diagram of the concepts in a chapter.</p></section></div>

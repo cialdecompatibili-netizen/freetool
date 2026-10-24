@@ -7,7 +7,7 @@ description: "Compliant crop and background for IDs, ready to print. Free, nothi
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1sdekha
 permalink: /en/tools/foto-tessera/
 ---
 <div id="ft-app" data-mode="tool" data-tool="foto-tessera" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Passport photo maker</h1><p>Compliant crop and background for IDs, ready to print.</p></section></div>

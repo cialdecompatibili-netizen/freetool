@@ -7,7 +7,7 @@ description: "Listen to your document as an MP3 file. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: ykczkr
 permalink: /en/tools/pdf-in-audio/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-audio" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to audio</h1><p>Listen to your document as an MP3 file.</p></section></div>

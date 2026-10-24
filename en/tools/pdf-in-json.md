@@ -7,7 +7,7 @@ description: "Structured data ready for your software. Free, nothing to install.
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: i66iq0
 permalink: /en/tools/pdf-in-json/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-json" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to JSON</h1><p>Structured data ready for your software.</p></section></div>

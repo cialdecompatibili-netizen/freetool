@@ -7,7 +7,7 @@ description: "From a text file to a well-laid-out PDF. Free, nothing to install.
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1phqjfb
 permalink: /en/tools/testo-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="testo-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Text to PDF</h1><p>From a text file to a well-laid-out PDF.</p></section></div>

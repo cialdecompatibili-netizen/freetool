@@ -7,7 +7,7 @@ description: "Papers and handouts as LaTeX, with formulas intact. Free, nothing 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 14qzyik
 permalink: /en/tools/pdf-in-latex/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-latex" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to LaTeX</h1><p>Papers and handouts as LaTeX, with formulas intact.</p></section></div>

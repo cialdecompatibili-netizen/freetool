@@ -7,7 +7,7 @@ description: "From your Markdown notes to a polished PDF. Free, nothing to insta
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1tmolp7
 permalink: /en/tools/markdown-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="markdown-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Markdown to PDF</h1><p>From your Markdown notes to a polished PDF.</p></section></div>

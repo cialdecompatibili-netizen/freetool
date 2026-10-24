@@ -7,7 +7,7 @@ description: "Smaller JPG, PNG and WebP files with almost identical quality. Fre
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: sttgoi
 permalink: /en/tools/comprimi-immagine/
 ---
 <div id="ft-app" data-mode="tool" data-tool="comprimi-immagine" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Compress image</h1><p>Smaller JPG, PNG and WebP files with almost identical quality.</p></section></div>

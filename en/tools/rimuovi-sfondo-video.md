@@ -7,7 +7,7 @@ description: "Removes a clip's background, no green screen needed. Free, nothing
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 43xplv
 permalink: /en/tools/rimuovi-sfondo-video/
 ---
 <div id="ft-app" data-mode="tool" data-tool="rimuovi-sfondo-video" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Remove video background</h1><p>Removes a clip's background, no green screen needed.</p></section></div>

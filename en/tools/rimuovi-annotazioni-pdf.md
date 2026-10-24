@@ -7,7 +7,7 @@ description: "Removes comments and highlights. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 13e15oy
 permalink: /en/tools/rimuovi-annotazioni-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="rimuovi-annotazioni-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Remove annotations</h1><p>Removes comments and highlights.</p></section></div>

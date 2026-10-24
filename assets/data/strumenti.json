@@ -228,6 +228,108 @@
    ]
   },
   {
+   "id": "spiega-busta-paga",
+   "cat": "ai",
+   "ico": "💶",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Spiega busta paga",
+    "Carica la busta paga e ricevi voci, trattenute e netto spiegati in parole semplici."
+   ],
+   "en": [
+    "Explain payslip",
+    "Upload a payslip and get items, deductions and net pay explained in plain words."
+   ]
+  },
+  {
+   "id": "analizza-bolletta",
+   "cat": "ai",
+   "ico": "💡",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Analizza bolletta luce e gas",
+    "Legge la bolletta, spiega le voci e ti dice dove stai pagando di piu'."
+   ],
+   "en": [
+    "Utility bill analyzer",
+    "Reads your bill, explains each line and shows where you may be overpaying."
+   ]
+  },
+  {
+   "id": "spiega-referto",
+   "cat": "ai",
+   "ico": "🩺",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Spiega referto medico",
+    "Un referto in linguaggio semplice. Non sostituisce il medico."
+   ],
+   "en": [
+    "Explain medical report",
+    "A medical report in plain language. Does not replace your doctor."
+   ]
+  },
+  {
+   "id": "riassumi-sentenza",
+   "cat": "ai",
+   "ico": "⚖️",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Riassumi sentenza o atto legale",
+    "Esito, parti, motivazioni e scadenze in una pagina."
+   ],
+   "en": [
+    "Summarize ruling or legal act",
+    "Outcome, parties, reasoning and deadlines on one page."
+   ]
+  },
+  {
+   "id": "estrai-dati-schema",
+   "cat": "estrai",
+   "ico": "🧬",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Estrai dati con il tuo schema",
+    "Dici quali campi vuoi e ottieni JSON o Excel pulito da qualsiasi PDF (alternativa a Docling e Marker)."
+   ],
+   "en": [
+    "Extract data with your schema",
+    "Name the fields you want and get clean JSON or Excel from any PDF (Docling/Marker alternative)."
+   ]
+  },
+  {
+   "id": "pdf-in-fattura-xml",
+   "cat": "crea",
+   "ico": "🧾",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "PDF in fattura elettronica XML",
+    "Da una fattura PDF o foto a XML FatturaPA pronto per lo SDI."
+   ],
+   "en": [
+    "PDF to e-invoice XML",
+    "From a PDF or photo invoice to FatturaPA XML ready for the Italian SDI."
+   ]
+  },
+  {
    "id": "riassumi-pdf",
    "cat": "ai",
    "ico": "✨",
@@ -2557,6 +2659,108 @@
    ]
   },
   {
+   "id": "genera-immagine",
+   "cat": "img-ia",
+   "ico": "🎨",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Genera immagine da testo",
+    "Descrivi cosa vuoi e ottieni l'immagine, senza registrarti."
+   ],
+   "en": [
+    "AI image generator",
+    "Describe what you want and get the image, no sign-up."
+   ]
+  },
+  {
+   "id": "modifica-foto-comando",
+   "cat": "img-ia",
+   "ico": "🪄",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Modifica foto con un comando",
+    "Scrivi cosa cambiare (colori, oggetti, stile) e l'IA lo fa."
+   ],
+   "en": [
+    "Edit photo with a prompt",
+    "Type what to change (colors, objects, style) and the AI does it."
+   ]
+  },
+  {
+   "id": "foto-prodotto-ia",
+   "cat": "img-ia",
+   "ico": "🛍️",
+   "input": "file",
+   "accept": "image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Foto prodotto con sfondo IA",
+    "Sfondo pulito o ambientato per i tuoi prodotti, pronto per ecommerce e Amazon."
+   ],
+   "en": [
+    "AI product photos",
+    "Clean or styled backgrounds for your products, ready for ecommerce and Amazon."
+   ]
+  },
+  {
+   "id": "foto-profilo-ia",
+   "cat": "img-ia",
+   "ico": "👔",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Foto profilo professionale IA",
+    "Dal selfie a una foto da LinkedIn e curriculum."
+   ],
+   "en": [
+    "AI professional headshot",
+    "From a selfie to a LinkedIn and CV-ready photo."
+   ]
+  },
+  {
+   "id": "foto-in-3d",
+   "cat": "img-ia",
+   "ico": "🧊",
+   "input": "file",
+   "accept": "image/*",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Foto in modello 3D",
+    "Trasforma una foto in un modello 3D scaricabile (GLB)."
+   ],
+   "en": [
+    "Photo to 3D model",
+    "Turn a photo into a downloadable 3D model (GLB)."
+   ]
+  },
+  {
+   "id": "genera-logo",
+   "cat": "img-ia",
+   "ico": "✨",
+   "input": "testo",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Crea logo con IA",
+    "Descrivi la tua attivita' e ricevi proposte di logo in SVG e PNG."
+   ],
+   "en": [
+    "AI logo maker",
+    "Describe your business and get logo options as SVG and PNG."
+   ]
+  },
+  {
    "id": "rimuovi-oggetti-foto",
    "cat": "img-ia",
    "ico": "🧹",
@@ -2982,6 +3186,142 @@
    ]
   },
   {
+   "id": "sottotitoli-nel-video",
+   "cat": "av-video",
+   "ico": "💬",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Sottotitoli incorporati nel video",
+    "Scrive i sottotitoli direttamente sul video, in stile social."
+   ],
+   "en": [
+    "Burn subtitles into video",
+    "Writes captions straight onto the video, social-media style."
+   ]
+  },
+  {
+   "id": "clip-virali",
+   "cat": "av-video",
+   "ico": "🔥",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Clip per i social dai video lunghi",
+    "Trova i momenti migliori e crea clip verticali con sottotitoli."
+   ],
+   "en": [
+    "Viral clips from long videos",
+    "Finds the best moments and makes vertical clips with captions."
+   ]
+  },
+  {
+   "id": "migliora-video-ia",
+   "cat": "av-video",
+   "ico": "📺",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Migliora e ingrandisci video",
+    "Piu' nitido e in alta risoluzione, anche per video vecchi."
+   ],
+   "en": [
+    "AI video enhancer",
+    "Sharper and higher resolution, even for old videos."
+   ]
+  },
+  {
+   "id": "rimuovi-sottotitoli-video",
+   "cat": "av-video",
+   "ico": "🧽",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Rimuovi sottotitoli dal video",
+    "Cancella le scritte fisse dei sottotitoli dai tuoi video."
+   ],
+   "en": [
+    "Remove subtitles from video",
+    "Erase hard-coded subtitles from your own videos."
+   ]
+  },
+  {
+   "id": "tutorial-da-registrazione",
+   "cat": "av-video",
+   "ico": "🖥️",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Tutorial dalla registrazione schermo",
+    "Da una registrazione muta a un tutorial con voce e passaggi scritti."
+   ],
+   "en": [
+    "Tutorial from screen recording",
+    "From a silent recording to a tutorial with voice-over and written steps."
+   ]
+  },
+  {
+   "id": "unisci-video",
+   "cat": "av-video",
+   "ico": "🔗",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Unisci video",
+    "Metti insieme piu' clip in un unico video."
+   ],
+   "en": [
+    "Merge videos",
+    "Join several clips into one video."
+   ]
+  },
+  {
+   "id": "estrai-fotogrammi",
+   "cat": "av-video",
+   "ico": "🖼️",
+   "input": "file",
+   "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Estrai fotogrammi dal video",
+    "Salva le immagini migliori del video come JPG o PNG."
+   ],
+   "en": [
+    "Extract video frames",
+    "Save the best frames of the video as JPG or PNG."
+   ]
+  },
+  {
+   "id": "video-in-articolo",
+   "cat": "av-trascrivi-video",
+   "ico": "📝",
+   "input": "url",
+   "accept": "",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Video in articolo di blog",
+    "Incolla il link di un video e ottieni un articolo pronto da pubblicare."
+   ],
+   "en": [
+    "Video to blog post",
+    "Paste a video link and get an article ready to publish."
+   ]
+  },
+  {
    "id": "traduci-sottotitoli",
    "cat": "av-trascrivi-video",
    "ico": "🌍",
@@ -3118,6 +3458,108 @@
    ]
   },
   {
+   "id": "karaoke-togli-voce",
+   "cat": "av-audio",
+   "ico": "🎤",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Karaoke: togli la voce",
+    "Cancella la voce da una canzone e tieni la base musicale."
+   ],
+   "en": [
+    "Karaoke vocal remover",
+    "Remove the vocals from a song and keep the instrumental."
+   ]
+  },
+  {
+   "id": "migliora-voce",
+   "cat": "av-audio",
+   "ico": "🎙️",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Migliora voce da studio",
+    "Registrazione con eco e rumore? Esce con suono da studio."
+   ],
+   "en": [
+    "Studio voice enhancer",
+    "Recording with echo and noise? It comes out studio-clean."
+   ]
+  },
+  {
+   "id": "cambia-voce",
+   "cat": "av-audio",
+   "ico": "🎭",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Cambia voce con IA",
+    "Trasforma la tua voce in un'altra voce naturale."
+   ],
+   "en": [
+    "AI voice changer",
+    "Turn your voice into another natural-sounding voice."
+   ]
+  },
+  {
+   "id": "normalizza-volume",
+   "cat": "av-audio",
+   "ico": "🔊",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Normalizza volume",
+    "Porta tutti i file allo stesso livello, per podcast e video."
+   ],
+   "en": [
+    "Normalize volume",
+    "Brings all files to the same level, for podcasts and videos."
+   ]
+  },
+  {
+   "id": "registra-e-trascrivi",
+   "cat": "av-trascrivi-audio",
+   "ico": "🔴",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Registra e trascrivi",
+    "Registra dal microfono e ottieni subito il testo."
+   ],
+   "en": [
+    "Record and transcribe",
+    "Record from your microphone and get the text right away."
+   ]
+  },
+  {
+   "id": "podcast-capitoli",
+   "cat": "av-trascrivi-audio",
+   "ico": "📑",
+   "input": "file",
+   "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Capitoli e note del podcast",
+    "Capitoli con orari, riassunto e show notes dal tuo episodio."
+   ],
+   "en": [
+    "Podcast chapters & show notes",
+    "Timestamped chapters, summary and show notes from your episode."
+   ]
+  },
+  {
    "id": "converti-audio",
    "cat": "av-audio",
    "ico": "🔄",
@@ -3206,8 +3648,8 @@
    "id": "testo-in-voce",
    "cat": "av-audio",
    "ico": "🗣️",
-   "input": "file",
-   "accept": ".pdf,application/pdf",
+   "input": "testo",
+   "accept": "",
    "multi": false,
    "nuovo": true,
    "it": [

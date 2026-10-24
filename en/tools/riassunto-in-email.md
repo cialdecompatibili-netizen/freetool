@@ -7,7 +7,7 @@ description: "A draft email that sums up the document. Free, nothing to install.
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: bu1y0o
 permalink: /en/tools/riassunto-in-email/
 ---
 <div id="ft-app" data-mode="tool" data-tool="riassunto-in-email" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to email</h1><p>A draft email that sums up the document.</p></section></div>

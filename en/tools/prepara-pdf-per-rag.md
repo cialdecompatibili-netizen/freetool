@@ -7,7 +7,7 @@ description: "Splits the document into chunks ready for a chatbot or AI search. 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1hz1m5p
 permalink: /en/tools/prepara-pdf-per-rag/
 ---
 <div id="ft-app" data-mode="tool" data-tool="prepara-pdf-per-rag" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Prepare PDF for chatbots</h1><p>Splits the document into chunks ready for a chatbot or AI search.</p></section></div>

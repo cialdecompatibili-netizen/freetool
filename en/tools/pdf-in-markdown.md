@@ -7,7 +7,7 @@ description: "Convert the PDF to Markdown, great for notes and LLMs. Free, nothi
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 12g4w5r
 permalink: /en/tools/pdf-in-markdown/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-markdown" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to Markdown</h1><p>Convert the PDF to Markdown, great for notes and LLMs.</p></section></div>

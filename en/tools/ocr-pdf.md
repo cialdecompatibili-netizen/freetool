@@ -7,7 +7,7 @@ description: "Make the text of scanned PDFs searchable and selectable. Free, not
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: w2wdqi
 permalink: /en/tools/ocr-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="ocr-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>OCR PDF</h1><p>Make the text of scanned PDFs searchable and selectable.</p></section></div>

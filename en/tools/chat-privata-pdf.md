@@ -7,7 +7,7 @@ description: "Anonymizes, asks the AI and restores the real data in the answer: 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 123fk7p
 permalink: /en/tools/chat-privata-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="chat-privata-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Private chat with PDF</h1><p>Anonymizes, asks the AI and restores the real data in the answer: the LLM never sees anything sensitive.</p></section></div>

@@ -7,7 +7,7 @@ description: "Isolates the vocals or the instrumental from a track. Free, nothin
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1rhym1b
 permalink: /en/tools/separa-voce-musica/
 ---
 <div id="ft-app" data-mode="tool" data-tool="separa-voce-musica" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Split vocals & music</h1><p>Isolates the vocals or the instrumental from a track.</p></section></div>

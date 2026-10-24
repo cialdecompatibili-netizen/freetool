@@ -7,7 +7,7 @@ description: "Break a PDF into several files or pull out only the pages you need
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: l8bjyi
 permalink: /en/tools/dividi-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="dividi-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Split PDF</h1><p>Break a PDF into several files or pull out only the pages you need.</p></section></div>

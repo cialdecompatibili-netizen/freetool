@@ -7,7 +7,7 @@ description: "Create a PDF from your images, with orientation and margins. Free,
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: fpiae9
 permalink: /en/tools/jpg-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="jpg-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>JPG to PDF</h1><p>Create a PDF from your images, with orientation and margins.</p></section></div>

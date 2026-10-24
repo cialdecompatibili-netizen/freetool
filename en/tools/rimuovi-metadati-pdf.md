@@ -7,7 +7,7 @@ description: "Strips author, dates and software used. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: vkeil0
 permalink: /en/tools/rimuovi-metadati-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="rimuovi-metadati-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Remove metadata</h1><p>Strips author, dates and software used.</p></section></div>

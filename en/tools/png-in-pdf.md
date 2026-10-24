@@ -7,7 +7,7 @@ description: "Create a PDF from your PNG images. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1y0t03l
 permalink: /en/tools/png-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="png-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PNG to PDF</h1><p>Create a PDF from your PNG images.</p></section></div>

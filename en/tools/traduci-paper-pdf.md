@@ -7,7 +7,7 @@ description: "Translates papers with formulas and figures without breaking the l
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 100i7ei
 permalink: /en/tools/traduci-paper-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="traduci-paper-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Translate research paper</h1><p>Translates papers with formulas and figures without breaking the layout.</p></section></div>

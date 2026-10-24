@@ -7,7 +7,7 @@ description: "Files under a size limit, handy for email attachments. Free, nothi
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1ic9gus
 permalink: /en/tools/dividi-per-peso/
 ---
 <div id="ft-app" data-mode="tool" data-tool="dividi-per-peso" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Split by size</h1><p>Files under a size limit, handy for email attachments.</p></section></div>

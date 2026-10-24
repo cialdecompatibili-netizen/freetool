@@ -7,7 +7,7 @@ description: "Strengths, gaps and fit for a job post. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1lz482s
 permalink: /en/tools/analizza-cv/
 ---
 <div id="ft-app" data-mode="tool" data-tool="analizza-cv" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Analyze resume</h1><p>Strengths, gaps and fit for a job post.</p></section></div>

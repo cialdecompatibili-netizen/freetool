@@ -7,7 +7,7 @@ description: "Put two versions side by side and see what changed. Free, nothing 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: 1ri1iho
 permalink: /en/tools/confronta-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="confronta-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Compare PDF</h1><p>Put two versions side by side and see what changed.</p></section></div>

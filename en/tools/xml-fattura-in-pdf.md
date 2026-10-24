@@ -7,7 +7,7 @@ description: "Read and print Italian electronic invoices (XML or P7M) as a clear
 lang: en
 locale: en
 tr: tradotto
-tr_hash: x
+tr_hash: q5p08m
 permalink: /en/tools/xml-fattura-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="xml-fattura-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Italian e-invoice XML to PDF</h1><p>Read and print Italian electronic invoices (XML or P7M) as a clear PDF.</p></section></div>
