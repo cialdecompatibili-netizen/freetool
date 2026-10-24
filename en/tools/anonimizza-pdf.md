@@ -7,7 +7,7 @@ description: "Detects names, tax IDs, IBANs and health data and replaces them wi
 lang: en
 locale: en
 tr: tradotto
-tr_hash: yvnkh6
+tr_hash: x
 permalink: /en/tools/anonimizza-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="anonimizza-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Anonymize PDF for AI</h1><p>Detects names, tax IDs, IBANs and health data and replaces them with *** before you give them to an LLM.</p></section></div>

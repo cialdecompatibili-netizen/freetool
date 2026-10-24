@@ -7,7 +7,7 @@ description: "Word, Excel, PowerPoint, HTML and PDF as clean Markdown for LLMs. 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1y64z7c
+tr_hash: x
 permalink: /en/tools/file-in-markdown/
 ---
 <div id="ft-app" data-mode="tool" data-tool="file-in-markdown" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Any file to Markdown</h1><p>Word, Excel, PowerPoint, HTML and PDF as clean Markdown for LLMs.</p></section></div>

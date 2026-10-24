@@ -7,7 +7,7 @@ description: "iPhone photos as JPG that open anywhere. Free, nothing to install.
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1apq9ye
+tr_hash: x
 permalink: /en/tools/heic-in-jpg/
 ---
 <div id="ft-app" data-mode="tool" data-tool="heic-in-jpg" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>HEIC to JPG</h1><p>iPhone photos as JPG that open anywhere.</p></section></div>

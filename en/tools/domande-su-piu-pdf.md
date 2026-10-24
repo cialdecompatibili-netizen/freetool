@@ -7,7 +7,7 @@ description: "One chat across a whole folder of documents. Free, nothing to inst
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1tfs0yg
+tr_hash: x
 permalink: /en/tools/domande-su-piu-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="domande-su-piu-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Chat with many PDFs</h1><p>One chat across a whole folder of documents.</p></section></div>

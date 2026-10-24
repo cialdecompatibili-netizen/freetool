@@ -7,7 +7,7 @@ description: "Permanently black out sensitive text and images. Free, nothing to 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: l9jh8j
+tr_hash: x
 permalink: /en/tools/censura-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="censura-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Redact PDF</h1><p>Permanently black out sensitive text and images.</p></section></div>

@@ -7,7 +7,7 @@ description: "Saves every image contained in the PDF. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: b6866s
+tr_hash: x
 permalink: /en/tools/estrai-immagini-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="estrai-immagini-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Extract images</h1><p>Saves every image contained in the PDF.</p></section></div>

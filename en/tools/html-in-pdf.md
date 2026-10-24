@@ -7,7 +7,7 @@ description: "Turn a web page into a PDF by pasting its address. Free, nothing t
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1f4kvir
+tr_hash: x
 permalink: /en/tools/html-in-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="html-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>HTML to PDF</h1><p>Turn a web page into a PDF by pasting its address.</p></section></div>

@@ -7,7 +7,7 @@ description: "Extract the document inside a signed .p7m file. Free, nothing to i
 lang: en
 locale: en
 tr: tradotto
-tr_hash: jvh9z2
+tr_hash: x
 permalink: /en/tools/apri-p7m/
 ---
 <div id="ft-app" data-mode="tool" data-tool="apri-p7m" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Open P7M file</h1><p>Extract the document inside a signed .p7m file.</p></section></div>

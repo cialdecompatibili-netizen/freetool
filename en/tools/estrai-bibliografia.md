@@ -7,7 +7,7 @@ description: "The document's citations in BibTeX. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: qjh935
+tr_hash: x
 permalink: /en/tools/estrai-bibliografia/
 ---
 <div id="ft-app" data-mode="tool" data-tool="estrai-bibliografia" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Extract references</h1><p>The document's citations in BibTeX.</p></section></div>

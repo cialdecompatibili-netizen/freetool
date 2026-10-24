@@ -7,7 +7,7 @@ description: "Apply the same operation to dozens of PDFs at once. Free, nothing 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: o86d0r
+tr_hash: x
 permalink: /en/tools/elabora-in-blocco/
 ---
 <div id="ft-app" data-mode="tool" data-tool="elabora-in-blocco" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Batch process</h1><p>Apply the same operation to dozens of PDFs at once.</p></section></div>

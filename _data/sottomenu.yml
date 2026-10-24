@@ -31,3 +31,12 @@
 # Per levare una tendina: cancella il blocco, la voce torna un link normale.
 # Documentazione del funzionamento: commento in testa a _includes/masthead.html.
 # =====================================================================================
+Strumenti:
+  - title: "Strumenti PDF"
+    url: /strumenti-pdf/
+  - title: "Strumenti immagini"
+    url: /strumenti-immagini/
+  - title: "Strumenti audio"
+    url: /strumenti-audio/
+  - title: "Strumenti video"
+    url: /strumenti-video/

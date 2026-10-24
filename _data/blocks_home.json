@@ -3,6 +3,6 @@
     "id": "strumenti",
     "nome": "Strumenti",
     "enabled": true,
-    "html": "<div id=\"ft-app\" data-mode=\"home\" data-lang=\"it\" data-base=\"__BASEURL__\"><h1>Tutti gli strumenti che ti servono, gratis</h1><ul><li><a href=\"__BASEURL__/strumenti-pdf/\">Strumenti PDF</a></li><li><a href=\"__BASEURL__/strumenti-immagini/\">Strumenti immagini</a></li><li><a href=\"__BASEURL__/audio-e-video/\">Audio e video</a></li></ul></div><script src=\"__BASEURL__/assets/js/freetool.js?v=2\" defer></script>"
+    "html": "<div id=\"ft-app\" data-mode=\"home\" data-lang=\"it\" data-base=\"__BASEURL__\"><h1>Tutti gli strumenti che ti servono, gratis</h1><ul><li><a href=\"__BASEURL__/strumenti-pdf/\">Strumenti PDF</a></li><li><a href=\"__BASEURL__/strumenti-immagini/\">Strumenti immagini</a></li><li><a href=\"__BASEURL__/strumenti-audio/\">Strumenti audio</a></li><li><a href=\"__BASEURL__/strumenti-video/\">Strumenti video</a></li></ul></div><script src=\"__BASEURL__/assets/js/freetool.js?v=2\" defer></script>"
   }
 ]

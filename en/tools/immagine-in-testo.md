@@ -7,7 +7,7 @@ description: "Copy text from photos, screenshots and scans. Free, nothing to ins
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1tfx6mn
+tr_hash: x
 permalink: /en/tools/immagine-in-testo/
 ---
 <div id="ft-app" data-mode="tool" data-tool="immagine-in-testo" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Image to text (OCR)</h1><p>Copy text from photos, screenshots and scans.</p></section></div>

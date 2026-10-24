@@ -7,7 +7,7 @@ description: "A list of every link in the PDF. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: lpdf9b
+tr_hash: x
 permalink: /en/tools/estrai-link-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="estrai-link-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Extract links</h1><p>A list of every link in the PDF.</p></section></div>

@@ -7,7 +7,7 @@ description: "A video's speech as timestamped text. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1x94hpl
+tr_hash: x
 permalink: /en/tools/trascrivi-video/
 ---
 <div id="ft-app" data-mode="tool" data-tool="trascrivi-video" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Transcribe video</h1><p>A video's speech as timestamped text.</p></section></div>

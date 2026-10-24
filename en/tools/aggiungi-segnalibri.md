@@ -7,7 +7,7 @@ description: "A clickable table of contents, even auto-generated. Free, nothing 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: q6p5q5
+tr_hash: x
 permalink: /en/tools/aggiungi-segnalibri/
 ---
 <div id="ft-app" data-mode="tool" data-tool="aggiungi-segnalibri" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Add bookmarks</h1><p>A clickable table of contents, even auto-generated.</p></section></div>

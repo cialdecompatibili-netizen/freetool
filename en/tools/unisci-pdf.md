@@ -7,7 +7,7 @@ description: "Combine several PDFs into one file, in the order you choose. Free,
 lang: en
 locale: en
 tr: tradotto
-tr_hash: cyrgd9
+tr_hash: x
 permalink: /en/tools/unisci-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="unisci-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Merge PDF</h1><p>Combine several PDFs into one file, in the order you choose.</p></section></div>

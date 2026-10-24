@@ -7,7 +7,7 @@ description: "Explains in plain words what changed between two versions. Free, n
 lang: en
 locale: en
 tr: tradotto
-tr_hash: cos0sc
+tr_hash: x
 permalink: /en/tools/confronta-contratti-ia/
 ---
 <div id="ft-app" data-mode="tool" data-tool="confronta-contratti-ia" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Compare contracts with AI</h1><p>Explains in plain words what changed between two versions.</p></section></div>

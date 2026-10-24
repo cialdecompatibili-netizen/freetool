@@ -7,7 +7,7 @@ description: "Removes shadows and whitens the background. Free, nothing to insta
 lang: en
 locale: en
 tr: tradotto
-tr_hash: e0lzve
+tr_hash: x
 permalink: /en/tools/migliora-scansione/
 ---
 <div id="ft-app" data-mode="tool" data-tool="migliora-scansione" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Enhance scan</h1><p>Removes shadows and whitens the background.</p></section></div>

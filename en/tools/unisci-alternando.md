@@ -7,7 +7,7 @@ description: "Front and back from two scans in one document. Free, nothing to in
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1plgsct
+tr_hash: x
 permalink: /en/tools/unisci-alternando/
 ---
 <div id="ft-app" data-mode="tool" data-tool="unisci-alternando" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Alternate & merge</h1><p>Front and back from two scans in one document.</p></section></div>

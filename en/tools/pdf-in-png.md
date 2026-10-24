@@ -7,7 +7,7 @@ description: "Save every page as a PNG image. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: mcgc5p
+tr_hash: x
 permalink: /en/tools/pdf-in-png/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-png" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to PNG</h1><p>Save every page as a PNG image.</p></section></div>

@@ -7,7 +7,7 @@ description: "Legalese turned into plain language, clause by clause. Free, nothi
 lang: en
 locale: en
 tr: tradotto
-tr_hash: po9mjf
+tr_hash: x
 permalink: /en/tools/spiega-contratto/
 ---
 <div id="ft-app" data-mode="tool" data-tool="spiega-contratto" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Explain contract</h1><p>Legalese turned into plain language, clause by clause.</p></section></div>

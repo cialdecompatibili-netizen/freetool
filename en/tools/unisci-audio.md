@@ -7,7 +7,7 @@ description: "Join several tracks into one file. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: biwx5e
+tr_hash: x
 permalink: /en/tools/unisci-audio/
 ---
 <div id="ft-app" data-mode="tool" data-tool="unisci-audio" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Merge audio</h1><p>Join several tracks into one file.</p></section></div>

@@ -7,7 +7,7 @@ description: "Separates different documents in a single scan. Free, nothing to i
 lang: en
 locale: en
 tr: tradotto
-tr_hash: aarp2i
+tr_hash: x
 permalink: /en/tools/dividi-con-ia/
 ---
 <div id="ft-app" data-mode="tool" data-tool="dividi-con-ia" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Split with AI</h1><p>Separates different documents in a single scan.</p></section></div>

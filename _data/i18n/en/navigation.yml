@@ -1,10 +1,8 @@
 main:
   - title: "Home"
     url: /en/
-  - title: "PDF tools"
-    url: /en/pdf-tools/
-  - title: "Image tools"
-    url: /en/image-tools/
+  - title: "Tools"
+    url: /en/
   - title: "Audio & video"
     url: /en/audio-video-tools/
   - title: "Blog"

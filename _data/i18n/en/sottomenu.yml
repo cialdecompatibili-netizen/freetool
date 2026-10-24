@@ -1,1 +1,10 @@
 # English dropdown menus (empty = none). Each key must be IDENTICAL to a title in navigation.yml of this folder.
+Tools:
+  - title: "PDF tools"
+    url: /en/pdf-tools/
+  - title: "Image tools"
+    url: /en/image-tools/
+  - title: "Audio tools"
+    url: /en/audio-tools/
+  - title: "Video tools"
+    url: /en/video-tools/

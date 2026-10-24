@@ -7,7 +7,7 @@ description: "Masks sensitive data in documents, spreadsheets and CSV files. Fre
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1uuxca1
+tr_hash: x
 permalink: /en/tools/anonimizza-word/
 ---
 <div id="ft-app" data-mode="tool" data-tool="anonimizza-word" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Anonymize Word & Excel</h1><p>Masks sensitive data in documents, spreadsheets and CSV files.</p></section></div>

@@ -7,7 +7,7 @@ description: "Reports, diagnoses and patient details masked before sharing or an
 lang: en
 locale: en
 tr: tradotto
-tr_hash: p90nyd
+tr_hash: x
 permalink: /en/tools/anonimizza-cartelle-cliniche/
 ---
 <div id="ft-app" data-mode="tool" data-tool="anonimizza-cartelle-cliniche" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Anonymize medical records</h1><p>Reports, diagnoses and patient details masked before sharing or analyzing with AI.</p></section></div>

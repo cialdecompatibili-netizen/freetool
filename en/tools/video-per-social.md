@@ -7,7 +7,7 @@ description: "Resize for Reels, TikTok, Shorts and Stories. Free, nothing to ins
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1anqn0b
+tr_hash: x
 permalink: /en/tools/video-per-social/
 ---
 <div id="ft-app" data-mode="tool" data-tool="video-per-social" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Video for social</h1><p>Resize for Reels, TikTok, Shorts and Stories.</p></section></div>

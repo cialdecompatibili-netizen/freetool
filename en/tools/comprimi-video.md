@@ -7,7 +7,7 @@ description: "Cut file size without hurting quality. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: i4nr9q
+tr_hash: x
 permalink: /en/tools/comprimi-video/
 ---
 <div id="ft-app" data-mode="tool" data-tool="comprimi-video" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Compress video</h1><p>Cut file size without hurting quality.</p></section></div>

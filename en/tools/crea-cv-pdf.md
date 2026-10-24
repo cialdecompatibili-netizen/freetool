@@ -7,7 +7,7 @@ description: "A template-based resume in minutes. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1a55fk4
+tr_hash: x
 permalink: /en/tools/crea-cv-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="crea-cv-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Create resume PDF</h1><p>A template-based resume in minutes.</p></section></div>

@@ -31,18 +31,33 @@
    }
   },
   {
-   "id": "audio-video",
-   "it": "Audio e video",
-   "en": "Audio & video",
+   "id": "audio",
+   "it": "Strumenti audio",
+   "en": "Audio tools",
    "slug": {
-    "it": "audio-e-video",
-    "en": "audio-video-tools"
+    "it": "strumenti-audio",
+    "en": "audio-tools"
+   },
+   "ico": "🎧",
+   "colore": "#22a559",
+   "desc": {
+    "it": "Trascrivi, converti, taglia e pulisci i tuoi file audio.",
+    "en": "Transcribe, convert, trim and clean your audio files."
+   }
+  },
+  {
+   "id": "video",
+   "it": "Strumenti video",
+   "en": "Video tools",
+   "slug": {
+    "it": "strumenti-video",
+    "en": "video-tools"
    },
    "ico": "🎬",
-   "colore": "#0ea5e9",
+   "colore": "#e5322d",
    "desc": {
-    "it": "Trascrivi, sottotitola, comprimi e converti audio e video.",
-    "en": "Transcribe, caption, compress and convert audio and video."
+    "it": "Sottotitola, comprimi, taglia e converti i tuoi video.",
+    "en": "Caption, compress, trim and convert your videos."
    }
   }
  ],
@@ -132,22 +147,29 @@
    "colore": "#e5322d"
   },
   {
-   "id": "av-trascrivi",
-   "settore": "audio-video",
-   "it": "Trascrivi e sottotitola",
-   "en": "Transcribe & caption",
+   "id": "av-trascrivi-video",
+   "settore": "video",
+   "it": "Sottotitoli e riassunti",
+   "en": "Captions & summaries",
    "colore": "#0ea5e9"
   },
   {
    "id": "av-video",
-   "settore": "audio-video",
+   "settore": "video",
    "it": "Video",
    "en": "Video",
    "colore": "#e5322d"
   },
   {
+   "id": "av-trascrivi-audio",
+   "settore": "audio",
+   "it": "Trascrivi audio",
+   "en": "Transcribe audio",
+   "colore": "#0ea5e9"
+  },
+  {
    "id": "av-audio",
-   "settore": "audio-video",
+   "settore": "audio",
    "it": "Audio",
    "en": "Audio",
    "colore": "#22a559"
@@ -2876,7 +2898,7 @@
   },
   {
    "id": "trascrivi-audio",
-   "cat": "av-trascrivi",
+   "cat": "av-trascrivi-audio",
    "ico": "🎤",
    "input": "file",
    "accept": "audio/*,.mp3,.wav,.m4a,.ogg,.flac",
@@ -2893,7 +2915,7 @@
   },
   {
    "id": "sottotitoli-automatici",
-   "cat": "av-trascrivi",
+   "cat": "av-trascrivi-video",
    "ico": "💬",
    "input": "file",
    "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
@@ -2910,7 +2932,7 @@
   },
   {
    "id": "verbale-riunione",
-   "cat": "av-trascrivi",
+   "cat": "av-trascrivi-audio",
    "ico": "📋",
    "input": "file",
    "accept": "audio/*,video/*",
@@ -2927,7 +2949,7 @@
   },
   {
    "id": "riassumi-video",
-   "cat": "av-trascrivi",
+   "cat": "av-trascrivi-video",
    "ico": "📺",
    "input": "url",
    "accept": "",
@@ -2944,7 +2966,7 @@
   },
   {
    "id": "trascrivi-video",
-   "cat": "av-trascrivi",
+   "cat": "av-trascrivi-video",
    "ico": "🎞️",
    "input": "file",
    "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",
@@ -2961,7 +2983,7 @@
   },
   {
    "id": "traduci-sottotitoli",
-   "cat": "av-trascrivi",
+   "cat": "av-trascrivi-video",
    "ico": "🌍",
    "input": "file",
    "accept": ".srt,.vtt",
@@ -3199,7 +3221,7 @@
   },
   {
    "id": "doppiaggio-ia",
-   "cat": "av-audio",
+   "cat": "av-video",
    "ico": "🎙️",
    "input": "file",
    "accept": "video/*,.mp4,.mov,.mkv,.avi,.webm",

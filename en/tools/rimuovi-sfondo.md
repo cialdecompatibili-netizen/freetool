@@ -7,7 +7,7 @@ description: "Cuts the background out and keeps only the subject. Free, nothing 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 2f67ch
+tr_hash: x
 permalink: /en/tools/rimuovi-sfondo/
 ---
 <div id="ft-app" data-mode="tool" data-tool="rimuovi-sfondo" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Remove background</h1><p>Cuts the background out and keeps only the subject.</p></section></div>

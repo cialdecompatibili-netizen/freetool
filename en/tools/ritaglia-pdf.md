@@ -7,7 +7,7 @@ description: "Trim the margins or select the area to keep. Free, nothing to inst
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 12ej5nx
+tr_hash: x
 permalink: /en/tools/ritaglia-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="ritaglia-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Crop PDF</h1><p>Trim the margins or select the area to keep.</p></section></div>

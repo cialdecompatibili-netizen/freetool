@@ -7,7 +7,7 @@ description: "Fills in the form from your details. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1t7qm1f
+tr_hash: x
 permalink: /en/tools/compila-modulo-ia/
 ---
 <div id="ft-app" data-mode="tool" data-tool="compila-modulo-ia" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Fill form with AI</h1><p>Fills in the form from your details.</p></section></div>

@@ -7,7 +7,7 @@ description: "Two voices discussing your document. Free, nothing to install."
 lang: en
 locale: en
 tr: tradotto
-tr_hash: budtsv
+tr_hash: x
 permalink: /en/tools/pdf-in-podcast/
 ---
 <div id="ft-app" data-mode="tool" data-tool="pdf-in-podcast" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>PDF to podcast</h1><p>Two voices discussing your document.</p></section></div>

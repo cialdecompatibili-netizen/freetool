@@ -7,7 +7,7 @@ description: "Paste or upload text: personal data becomes ***, ready for ChatGPT
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 1t17co
+tr_hash: x
 permalink: /en/tools/anonimizza-testo/
 ---
 <div id="ft-app" data-mode="tool" data-tool="anonimizza-testo" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Anonymize text</h1><p>Paste or upload text: personal data becomes ***, ready for ChatGPT and the like.</p></section></div>

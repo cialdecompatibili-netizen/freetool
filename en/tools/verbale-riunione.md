@@ -7,7 +7,7 @@ description: "From audio or video to minutes with decisions and action items. Fr
 lang: en
 locale: en
 tr: tradotto
-tr_hash: f2ibye
+tr_hash: x
 permalink: /en/tools/verbale-riunione/
 ---
 <div id="ft-app" data-mode="tool" data-tool="verbale-riunione" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Meeting minutes</h1><p>From audio or video to minutes with decisions and action items.</p></section></div>

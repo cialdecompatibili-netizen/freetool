@@ -7,7 +7,7 @@ description: "Translates a video's speech and re-voices it in another language. 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: 4f5as7
+tr_hash: x
 permalink: /en/tools/doppiaggio-ia/
 ---
 <div id="ft-app" data-mode="tool" data-tool="doppiaggio-ia" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>AI dubbing</h1><p>Translates a video's speech and re-voices it in another language.</p></section></div>

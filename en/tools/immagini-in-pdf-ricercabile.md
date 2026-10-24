@@ -7,7 +7,7 @@ description: "Document photos into a PDF with selectable text. Free, nothing to 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: d33c9u
+tr_hash: x
 permalink: /en/tools/immagini-in-pdf-ricercabile/
 ---
 <div id="ft-app" data-mode="tool" data-tool="immagini-in-pdf-ricercabile" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Images to searchable PDF</h1><p>Document photos into a PDF with selectable text.</p></section></div>

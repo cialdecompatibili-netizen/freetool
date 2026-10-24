@@ -1,10 +1,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Strumenti PDF"
-    url: /strumenti-pdf/
-  - title: "Strumenti immagini"
-    url: /strumenti-immagini/
+  - title: "Strumenti"
+    url: /
   - title: "Audio e video"
     url: /audio-e-video/
   - title: "Blog"

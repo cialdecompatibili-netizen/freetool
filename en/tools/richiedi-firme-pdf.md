@@ -7,7 +7,7 @@ description: "Send the document to several people and collect signatures. Free, 
 lang: en
 locale: en
 tr: tradotto
-tr_hash: i6ftqt
+tr_hash: x
 permalink: /en/tools/richiedi-firme-pdf/
 ---
 <div id="ft-app" data-mode="tool" data-tool="richiedi-firme-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>Request signatures</h1><p>Send the document to several people and collect signatures.</p></section></div>
