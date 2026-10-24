@@ -1,0 +1,14 @@
+---
+ref: tool-rtf-in-pdf
+layout: default
+title: "RTF & ODT to PDF free online"
+seo_description: "RTF and ODT documents converted to PDF. Free, nothing to install."
+description: "RTF and ODT documents converted to PDF. Free, nothing to install."
+lang: en
+locale: en
+tr: tradotto
+tr_hash: n7gz4r
+permalink: /en/tools/rtf-in-pdf/
+---
+<div id="ft-app" data-mode="tool" data-tool="rtf-in-pdf" data-lang="en" data-base="{{ '' | relative_url }}" data-endpoint="{{ site.contact_endpoint }}"><section class="ft-box"><h1>RTF & ODT to PDF</h1><p>RTF and ODT documents converted to PDF.</p></section></div>
+<script src="{{ '/assets/js/freetool.js?v=2' | relative_url }}" defer></script>
