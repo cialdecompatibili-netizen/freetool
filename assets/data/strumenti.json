@@ -605,12 +605,148 @@
    "multi": false,
    "nuovo": true,
    "it": [
-    "Anonimizza PDF",
-    "Trova e oscura nomi, IBAN e codici fiscali in automatico."
+    "Anonimizza PDF per l'IA",
+    "Rileva nomi, codici fiscali, IBAN e dati sanitari e li sostituisce con *** prima di darli a un LLM."
    ],
    "en": [
-    "Anonymize PDF",
-    "Finds and blacks out names, IBANs and tax codes automatically."
+    "Anonymize PDF for AI",
+    "Detects names, tax IDs, IBANs and health data and replaces them with *** before you give them to an LLM."
+   ]
+  },
+  {
+   "id": "chat-privata-pdf",
+   "cat": "ai",
+   "ico": "🛡️",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Chat privata con il PDF",
+    "Anonimizza, chiede all'IA e rimette i dati veri nella risposta: l'LLM non vede nulla di sensibile."
+   ],
+   "en": [
+    "Private chat with PDF",
+    "Anonymizes, asks the AI and restores the real data in the answer: the LLM never sees anything sensitive."
+   ]
+  },
+  {
+   "id": "anonimizza-cartelle-cliniche",
+   "cat": "ai",
+   "ico": "🏥",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Anonimizza cartelle cliniche",
+    "Referti, diagnosi e anagrafiche oscurati prima di condividerli o analizzarli con l'IA."
+   ],
+   "en": [
+    "Anonymize medical records",
+    "Reports, diagnoses and patient details masked before sharing or analyzing with AI."
+   ]
+  },
+  {
+   "id": "anonimizza-reversibile",
+   "cat": "ai",
+   "ico": "🔁",
+   "input": "file",
+   "accept": ".pdf,application/pdf",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Anonimizza con ripristino",
+    "Sostituisce i dati con segnaposto ([PERSONA_1]) e ti dà la chiave per ripristinarli dopo."
+   ],
+   "en": [
+    "Reversible anonymization",
+    "Swaps data for placeholders ([PERSON_1]) and gives you the key to restore them later."
+   ]
+  },
+  {
+   "id": "ripristina-dati-anonimi",
+   "cat": "ai",
+   "ico": "🔓",
+   "input": "file",
+   "accept": ".json,.txt,.pdf,.docx",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Ripristina dati anonimizzati",
+    "Rimette nomi e dati veri nella risposta dell'IA usando la chiave."
+   ],
+   "en": [
+    "Restore anonymized data",
+    "Puts real names and data back into the AI's answer using the key."
+   ]
+  },
+  {
+   "id": "anonimizza-word",
+   "cat": "ai",
+   "ico": "🕶️",
+   "input": "file",
+   "accept": ".doc,.docx,.xls,.xlsx,.csv",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Anonimizza Word ed Excel",
+    "Oscura i dati sensibili in documenti, fogli e CSV."
+   ],
+   "en": [
+    "Anonymize Word & Excel",
+    "Masks sensitive data in documents, spreadsheets and CSV files."
+   ]
+  },
+  {
+   "id": "anonimizza-testo",
+   "cat": "ai",
+   "ico": "🔤",
+   "input": "file",
+   "accept": ".txt,.md,.docx,.csv,.json",
+   "multi": false,
+   "nuovo": true,
+   "it": [
+    "Anonimizza testo",
+    "Incolla o carica un testo: i dati personali diventano ***, pronto per ChatGPT e simili."
+   ],
+   "en": [
+    "Anonymize text",
+    "Paste or upload text: personal data becomes ***, ready for ChatGPT and the like."
+   ]
+  },
+  {
+   "id": "anonimizza-scansioni",
+   "cat": "ai",
+   "ico": "📠",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Anonimizza scansioni e foto",
+    "Legge il testo con OCR e oscura i dati sensibili anche nelle immagini."
+   ],
+   "en": [
+    "Anonymize scans & photos",
+    "Reads text with OCR and masks sensitive data even in images."
+   ]
+  },
+  {
+   "id": "rileva-dati-sensibili",
+   "cat": "sicurezza",
+   "ico": "🔎",
+   "input": "file",
+   "accept": ".pdf,application/pdf,image/*",
+   "multi": true,
+   "nuovo": true,
+   "it": [
+    "Cerca dati sensibili",
+    "Un rapporto di cosa c'è di riservato nel documento, prima di condividerlo."
+   ],
+   "en": [
+    "Find sensitive data",
+    "A report of what's confidential in the document before you share it."
    ]
   },
   {
